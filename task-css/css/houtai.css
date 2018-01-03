@@ -176,25 +176,25 @@ body{
 .seven-1 span{
      color: #999999;
      position: relative;
-     top: 7px;
+     top: 10px;
      margin-left: 7rem;
  }
 .seven-2 span{
     color: #999999;
     position: relative;
-    top: -13px;
+    top: -9px;
     margin-left: 11rem;
 }
 .seven-3 span{
     color: #999999;
     position: relative;
-    top: -33px;
+    top: -28px;
     margin-left: 18rem;
 }
 .seven-4 span{
     color: #2aabd2;
     position: relative;
-    top: -52px;
+    top: -47px;
     margin-left: 24rem;
 }
 .title{
@@ -246,7 +246,7 @@ body{
     margin-top: -47px;
 }
 .dorpmenu-2{
-    margin-left: 49.8rem;
+    margin-left: 49.4rem;
     margin-top: 1rem;
 }
 .dorpmenu-2 span{
@@ -259,7 +259,7 @@ body{
 }
 .searchInput{
     margin-left: 50rem;
-    margin-top: -6.3rem;
+    margin-top: -6rem;
 }
 .searchInput span{
     color: #999;
@@ -269,8 +269,8 @@ body{
     height: 31px;
 }
 .dorpmenu-3{
-    margin-left: 69.6rem;
-    margin-top: -6.3rem;
+    margin-left: 70.4rem;
+    margin-top: -6.1rem;
 }
 .dorpmenu-3 span{
     color: #999999;
@@ -324,7 +324,7 @@ body{
     height: 100px;
     margin-left: 44.5rem;
     background: #FFF;
-    margin-top: -8.3rem;
+    margin-top: -7.5rem;
     border: 1px solid #e5e5e5;
     border-top: 4px solid #2aabd2;
 }
@@ -342,7 +342,7 @@ body{
 }
 .news-2 h2{
     margin-left: 4.6rem;
-    margin-top: -3.3rem;
+    margin-top: -3.7rem;
     color: #ec6500;
 }
 .news-3{
@@ -350,7 +350,7 @@ body{
     height: 102px;
     margin-left: 58rem;
     background: #FFF;
-    margin-top: -8.5rem;
+    margin-top: -7.6rem;
 
     border: 1px solid #e5e5e5;
 }
@@ -359,7 +359,7 @@ body{
     height: 102px;
     margin-left: 71.5rem;
     background: #FFF;
-    margin-top: -8.5rem;
+    margin-top: -7.6rem;
     border: 1px solid #e5e5e5;
 }
 .news-5{
@@ -367,7 +367,7 @@ body{
     height: 102px;
     margin-left: 85rem;
     background: #FFF;
-    margin-top: -8.5rem;
+    margin-top: -7.6rem;
     border: 1px solid #e5e5e5;
 }
 .news-6{
@@ -375,7 +375,7 @@ body{
     height: 102px;
     margin-left: 98.5rem;
     background: #FFF;
-    margin-top: -8.5rem;
+    margin-top: -7.6rem;
     border: 1px solid #e5e5e5;
 }
 .news-7{
@@ -383,7 +383,7 @@ body{
     height: 102px;
     margin-left: 112rem;
     background: #FFF;
-    margin-top: -8.5rem;
+    margin-top: -7.6rem;
     border: 1px solid #e5e5e5;
 }
 .tin{
@@ -391,7 +391,7 @@ body{
     height: 100px;
     background: #fff;
     margin-right: 28.2rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     border: 1px solid #e5e5e5;
     float: right;
 }
@@ -405,7 +405,7 @@ body{
     height: 100px;
     background: #fff;
     margin-left: 131rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     border: 1px solid #e5e5e5;
 }
 .tin-2 img{
@@ -460,7 +460,7 @@ body{
     height: 100px;
     float: right;
     margin-right: 66.5rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     border: 2px solid #e5e5e5;
     border-left: 4px solid #2aabd2;
 }
@@ -477,7 +477,7 @@ body{
     height: 100px;
     float: right;
     margin-right: 37.5rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     border: 2px solid #e5e5e5;
     border-left: 4px solid #d04a36;
 }
@@ -494,7 +494,7 @@ body{
     height: 100px;
     float: right;
     margin-right: 8.5rem;
-    margin-top: -8.5rem;
+    margin-top: -7.5rem;
     border: 2px solid #e5e5e5;
     border-left: 4px solid #e2cd46;
 }
@@ -547,7 +547,7 @@ body{
     height: 365px;
     border: 2px solid #ddddde;
     margin-left: 32px;
-    margin-top: -1px;
+    margin-top: 20px;
 }
 .b{
     width: 107px;
@@ -564,7 +564,7 @@ body{
     margin-top: -5.8rem;
     margin-left: 13rem;
     position: relative;
-    top: -1px;
+    top: 7px;
 }
 .arrow-4 span{
     font-size: 15px;
@@ -581,7 +581,7 @@ body{
     margin-top: -3.1rem;
     margin-left: 24.5rem;
     position: relative;
-    top: -1px;
+    top: 11px;
 }
 .arrow-5 span{
     font-size: 15px;
@@ -598,7 +598,7 @@ body{
     margin-top: -3.1rem;
     margin-left: 36rem;
     position: relative;
-    top: -1px;
+    top: 16px;
 }
 .arrow-6 span{
     font-size: 15px;
@@ -615,7 +615,7 @@ body{
     margin-top: -3.1rem;
     margin-left: 47rem;
     position: relative;
-    top: -1px;
+    top: 20px;
 }
 .arrow-7 span{
     font-size: 15px;
@@ -653,7 +653,7 @@ body{
     height: 530px;
     background: #ffffff;
     margin-left: 105rem;
-    margin-top: -44.2rem;
+    margin-top: -39.8rem;
     border-radius: 10px;
     border: 2px solid #ddddde;
 }
@@ -804,20 +804,20 @@ body{
 .print-3 select{
     width: 22%;
     height: 30px;
-    margin-top: -1px;
+    margin-top: 3px;
 }
 .print-4{
-    margin-top: -34rem;
+    margin-top: -2.5rem;
     position: relative;
     left: 22.4rem;
 }
 .print-4 select{
     width: 22%;
     height: 30px;
-    margin-top: 4px;
+    margin-top: 3px;
 }
 .print-5{
-    margin-top: -29rem;
+    margin-top: -2.5rem;
     position: relative;
     left: 32.8rem;
 }
@@ -920,7 +920,7 @@ body{
     height: 530px;
     background: #ffffff;
     margin-left: 85.1rem;
-    margin-top: -44.2rem;
+    margin-top: -39.7rem;
     border-radius: 10px;
     border: 2px solid #ddddde;
 }
@@ -1052,13 +1052,13 @@ body{
     background: #dcdcdc;
     margin-left: 9rem;
     margin-top: -0.6rem;
-    height: 5px;
+    height: 4px;
 }
 .f p{
     margin: 0;
     background: #ec6e51;
     width: 85%;
-    height: 5px;
+    height: 4px;
 }
 .j{
     width: 63%;
@@ -1078,13 +1078,13 @@ body{
     background: #dcdcdc;
     margin-left: 9rem;
     margin-top: -0.6rem;
-    height: 6px;
+    height: 5px;
 }
 .k p{
     margin: 0;
     background: #f19e4f;
     width: 69%;
-    height: 6px;
+    height: 5px;
 }
 .l{
     width: 63%;
@@ -1110,14 +1110,14 @@ body{
     margin: 0;
     background: #7ecaf0;
     width: 57%;
-    height: 6px;
+    height: 5px;
 }
 .n{
     width: 63%;
     background: #dcdcdc;
     margin-left: 9rem;
     margin-top: -0.6rem;
-    height: 6px;
+    height: 5px;
 }
 .n p{
     margin: 0;
