@@ -47,8 +47,8 @@
       <file leaf-file-name="houtai.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-css/houtai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="581" column="34" lean-forward="true" selection-start-line="581" selection-start-column="34" selection-end-line="581" selection-end-column="34" />
+            <state relative-caret-position="73">
+              <caret line="536" column="62" lean-forward="true" selection-start-line="536" selection-start-column="62" selection-end-line="536" selection-end-column="62" />
               <folding>
                 <element signature="e#2427#2433#0" expanded="true" />
                 <element signature="e#2523#2529#0" expanded="true" />
@@ -67,8 +67,8 @@
       <file leaf-file-name="houtai.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-css/css/houtai.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="248" column="25" lean-forward="true" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+            <state relative-caret-position="318">
+              <caret line="916" column="1" lean-forward="true" selection-start-line="916" selection-start-column="1" selection-end-line="916" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -102,6 +102,7 @@
       <find>arr</find>
       <find>vo</find>
       <find>a</find>
+      <find>seven</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,7 +246,7 @@
       <workItem from="1514943474029" duration="185000" />
       <workItem from="1514944763508" duration="10215000" />
       <workItem from="1514959879895" duration="1432000" />
-      <workItem from="1514964857684" duration="6540000" />
+      <workItem from="1514964857684" duration="8070000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -289,11 +290,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514971571911</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ht">
+      <created>1514973117234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514973117234</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ht">
+      <created>1514973132445</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1514973132445</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156661000" />
+    <option name="totallyTimeSpent" value="158191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -809,8 +824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/houtai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="581" column="34" lean-forward="true" selection-start-line="581" selection-start-column="34" selection-end-line="581" selection-end-column="34" />
+        <state relative-caret-position="73">
+          <caret line="536" column="62" lean-forward="true" selection-start-line="536" selection-start-column="62" selection-end-line="536" selection-end-column="62" />
           <folding>
             <element signature="e#2427#2433#0" expanded="true" />
             <element signature="e#2523#2529#0" expanded="true" />
@@ -827,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/css/houtai.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="248" column="25" lean-forward="true" selection-start-line="248" selection-start-column="25" selection-end-line="248" selection-end-column="25" />
+        <state relative-caret-position="318">
+          <caret line="916" column="1" lean-forward="true" selection-start-line="916" selection-start-column="1" selection-end-line="916" selection-end-column="1" />
           <folding />
         </state>
       </provider>

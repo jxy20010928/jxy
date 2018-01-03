@@ -1,0 +1,287 @@
+Index: task-css/css/houtai.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- task-css/css/houtai.css	(revision 1dc8a2acc99b7e4002987ac204b6cebf5659573d)
++++ task-css/css/houtai.css	(date 1514973063044)
+@@ -176,25 +176,25 @@
+ .seven-1 span{
+      color: #999999;
+      position: relative;
+-     top: 10px;
++     top: 7px;
+      margin-left: 7rem;
+  }
+ .seven-2 span{
+     color: #999999;
+     position: relative;
+-    top: -9px;
++    top: -13px;
+     margin-left: 11rem;
+ }
+ .seven-3 span{
+     color: #999999;
+     position: relative;
+-    top: -28px;
++    top: -33px;
+     margin-left: 18rem;
+ }
+ .seven-4 span{
+     color: #2aabd2;
+     position: relative;
+-    top: -47px;
++    top: -52px;
+     margin-left: 24rem;
+ }
+ .title{
+@@ -259,7 +259,7 @@
+ }
+ .searchInput{
+     margin-left: 50rem;
+-    margin-top: -5.3rem;
++    margin-top: -6.3rem;
+ }
+ .searchInput span{
+     color: #999;
+@@ -270,7 +270,7 @@
+ }
+ .dorpmenu-3{
+     margin-left: 69.6rem;
+-    margin-top: -5.8rem;
++    margin-top: -6.3rem;
+ }
+ .dorpmenu-3 span{
+     color: #999999;
+@@ -302,7 +302,7 @@
+     display: inline-block;
+     float: right;
+     margin-right: 16rem;
+-    margin-top: -40px;
++    margin-top: -50px;
+     border-radius: 6px;
+     outline: none;
+ }
+@@ -324,7 +324,7 @@
+     height: 100px;
+     margin-left: 44.5rem;
+     background: #FFF;
+-    margin-top: -7.5rem;
++    margin-top: -8.3rem;
+     border: 1px solid #e5e5e5;
+     border-top: 4px solid #2aabd2;
+ }
+@@ -350,7 +350,7 @@
+     height: 102px;
+     margin-left: 58rem;
+     background: #FFF;
+-    margin-top: -7.6rem;
++    margin-top: -8.5rem;
+ 
+     border: 1px solid #e5e5e5;
+ }
+@@ -359,7 +359,7 @@
+     height: 102px;
+     margin-left: 71.5rem;
+     background: #FFF;
+-    margin-top: -7.6rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+ }
+ .news-5{
+@@ -367,7 +367,7 @@
+     height: 102px;
+     margin-left: 85rem;
+     background: #FFF;
+-    margin-top: -7.6rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+ }
+ .news-6{
+@@ -375,7 +375,7 @@
+     height: 102px;
+     margin-left: 98.5rem;
+     background: #FFF;
+-    margin-top: -7.6rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+ }
+ .news-7{
+@@ -383,7 +383,7 @@
+     height: 102px;
+     margin-left: 112rem;
+     background: #FFF;
+-    margin-top: -7.6rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+ }
+ .tin{
+@@ -391,7 +391,7 @@
+     height: 100px;
+     background: #fff;
+     margin-right: 28.2rem;
+-    margin-top: -7.5rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+     float: right;
+ }
+@@ -405,7 +405,7 @@
+     height: 100px;
+     background: #fff;
+     margin-left: 131rem;
+-    margin-top: -7.5rem;
++    margin-top: -8.5rem;
+     border: 1px solid #e5e5e5;
+ }
+ .tin-2 img{
+@@ -452,7 +452,7 @@
+     height: 60px;
+     background: #29B078;
+     margin-left: 13rem;
+-    margin-top: -5.4rem;
++    margin-top: -5.8rem;
+ }
+ .subpage-2{
+     background: #fff;
+@@ -460,7 +460,7 @@
+     height: 100px;
+     float: right;
+     margin-right: 66.5rem;
+-    margin-top: -7.5rem;
++    margin-top: -8.5rem;
+     border: 2px solid #e5e5e5;
+     border-left: 4px solid #2aabd2;
+ }
+@@ -469,7 +469,7 @@
+     height: 60px;
+     background: #2aabd2;
+     margin-left: 13rem;
+-    margin-top: -5.4rem;
++    margin-top: -5.8rem;
+ }
+ .subpage-3{
+     background: #fff;
+@@ -477,7 +477,7 @@
+     height: 100px;
+     float: right;
+     margin-right: 37.5rem;
+-    margin-top: -7.5rem;
++    margin-top: -8.5rem;
+     border: 2px solid #e5e5e5;
+     border-left: 4px solid #d04a36;
+ }
+@@ -486,7 +486,7 @@
+     height: 60px;
+     background: #d04a36;
+     margin-left: 13rem;
+-    margin-top: -5.4rem;
++    margin-top: -5.8rem;
+ }
+ .subpage-4{
+     background: #fff;
+@@ -494,7 +494,7 @@
+     height: 100px;
+     float: right;
+     margin-right: 8.5rem;
+-    margin-top: -7.5rem;
++    margin-top: -8.5rem;
+     border: 2px solid #e5e5e5;
+     border-left: 4px solid #e2cd46;
+ }
+@@ -503,7 +503,7 @@
+     height: 60px;
+     background: #e2cd46;
+     margin-left: 13rem;
+-    margin-top: -5.4rem;
++    margin-top: -5.8rem;
+ }
+ .arrow{
+     width: 41%;
+@@ -547,7 +547,7 @@
+     height: 365px;
+     border: 2px solid #ddddde;
+     margin-left: 32px;
+-    margin-top: 20px;
++    margin-top: -1px;
+ }
+ .b{
+     width: 107px;
+@@ -564,7 +564,7 @@
+     margin-top: -5.8rem;
+     margin-left: 13rem;
+     position: relative;
+-    top: 7px;
++    top: -1px;
+ }
+ .arrow-4 span{
+     font-size: 15px;
+@@ -581,7 +581,7 @@
+     margin-top: -3.1rem;
+     margin-left: 24.5rem;
+     position: relative;
+-    top: 11px;
++    top: -1px;
+ }
+ .arrow-5 span{
+     font-size: 15px;
+@@ -598,7 +598,7 @@
+     margin-top: -3.1rem;
+     margin-left: 36rem;
+     position: relative;
+-    top: 16px;
++    top: -1px;
+ }
+ .arrow-6 span{
+     font-size: 15px;
+@@ -615,7 +615,7 @@
+     margin-top: -3.1rem;
+     margin-left: 47rem;
+     position: relative;
+-    top: 20px;
++    top: -1px;
+ }
+ .arrow-7 span{
+     font-size: 15px;
+@@ -653,7 +653,7 @@
+     height: 530px;
+     background: #ffffff;
+     margin-left: 105rem;
+-    margin-top: -39.8rem;
++    margin-top: -44.2rem;
+     border-radius: 10px;
+     border: 2px solid #ddddde;
+ }
+@@ -804,20 +804,20 @@
+ .print-3 select{
+     width: 22%;
+     height: 30px;
+-    margin-top: 3px;
++    margin-top: -1px;
+ }
+ .print-4{
+-    margin-top: -2.5rem;
++    margin-top: -34rem;
+     position: relative;
+     left: 22.4rem;
+ }
+ .print-4 select{
+     width: 22%;
+     height: 30px;
+-    margin-top: 3px;
++    margin-top: 4px;
+ }
+ .print-5{
+-    margin-top: -2.5rem;
++    margin-top: -29rem;
+     position: relative;
+     left: 32.8rem;
+ }
+@@ -920,7 +920,7 @@
+     height: 530px;
+     background: #ffffff;
+     margin-left: 85.1rem;
+-    margin-top: -39.7rem;
++    margin-top: -44.2rem;
+     border-radius: 10px;
+     border: 2px solid #ddddde;
+ }
