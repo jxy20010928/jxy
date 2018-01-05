@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>000</title>
+	</head>
+	<body>
+		<label>输入的值</label><input type="text" id="use_input"/>
+		<input type="button" value="点击" id="btn" />
+		<p id="show">输入的值是</p>
+		
+	</body>
+	<script type="text/javascript">
+		var show=document.getElementById('show');//显示的标签
+		var input_use=document.getElementById('use_input');//输入框
+		var btn=document.getElementById('btn');//按钮
+		
+/*		input_use.onchange=function(){
+//			show.innerText=this.value;
+			show.innerHTML="输入的值是"+"<br/>"+input_use.value;
+		}*/
+		btn.onclick=function(){
+			
+			show.innerHTML="输入的值是"+"<br/>"+input_use.value;
+			
+			
+		}
+	</script>
+</html>

@@ -1,0 +1,37 @@
+/*body{
+	border-style:solid ;
+	border-color: #999999; 1px;
+	width: 1300px;
+	height: 1000px;
+	margin: 15px;
+	
+}*/
+.div-1{
+	background: #CCCCCC;
+	width: 600px;
+	height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+.div-2{
+	background: #fc0;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position: absolute;
+	top: 300px;
+	left: 350px;
+	-webkit-border-radius: 0 0 100px 0;
+
+}
+.div-3{
+	background: #fc0;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position: absolute;
+	top: 600px;
+	left: 850px;
+	-webkit-border-radius: 100px 0 0 0;
+}

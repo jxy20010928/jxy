@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>简单的</title>
+	</head>
+
+	<body>
+		<label>城市：<input type="text" id="city"/></label>
+		<label>空气指数：<input type="text" id="data"/></label>
+		<button id="set">增加</button>
+		<table width="100%" id="end">
+			<tr>
+				<td>城市</td>
+				<td>空气指数</td>
+				<td>操作</td>
+			</tr>
+		</table>
+	</body>
+
+	<script type="text/javascript">
+		window.onload = function() {
+			var set_btn = document.getElementById('set');
+			var end = document.getElementById('end');
+			var city_info = {};
+			set_btn.onclick = function() {
+				var city_name = document.getElementById('city').value;
+				var city_data = document.getElementById('data').value;
+				city_info[city_name] = city_data;
+				//输出
+				for(var i in city_info) {
+					var trnode = document.createElement('tr'); //创建节点
+					trnode.innerHTML = "<td>" + i + "</td><td>" + city_info[i] + "</td><td><button class='delete_btn'>删除</button></td>"
+					end.appendChild(trnode); //末尾添加节点appendchild();
+				}
+				//获取删除按钮
+				var delete_btn = document.getElementsByClassName('delete_btn');
+				//为每一个添加点击事件
+				for(var m = 0; m < delete_btn.length; m++) {
+					delete_btn[m].onclick = function() {
+						var node1 = this.parentNode.parentNode;
+						var node2 = parent_node.parentNode;
+						node2.removeChild(node1);
+					}
+				}
+			}
+
+		}
+	</script>
+
+</html>

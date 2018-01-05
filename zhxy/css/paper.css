@@ -1,0 +1,391 @@
+.weap{
+	width: 89.4rem;
+	border-bottom: 0.2rem solid #938e8c;
+}
+.website{
+	padding-left: 0.5rem;
+	width: 11.2rem;
+	height: 6rem;
+	background: #d45d5c;
+	padding-top: 4rem;
+	letter-spacing: 0.15rem;
+}
+.website a{
+	font-size: 1rem;
+	color: #FFFFFF;
+}
+.time{
+	padding-top: 4rem;
+	height: 6rem;
+}
+.time a{
+	color: #d45d5c;
+}
+.weap-1{
+	width: 89.4rem;
+	margin-top: 3.5rem;
+}
+.weep{
+	padding: 0;
+	width: 41.6rem;
+}
+.print{
+	padding: 0;
+	background-image: url(../img/paper/tu.png) ;
+	width: 64rem;
+}
+.print-a{
+	width: 19rem;
+	height: 30.2rem;
+	background: #556f54;
+	float: left;
+	opacity: 0.5;
+}
+.print-b{
+	width: 19rem;
+	height: 30.2rem;
+	background: #e4b7b7;
+	float: right;
+	opacity: 0.5;
+}
+.weap-2{
+	width: 64rem;
+}
+.print-1{
+	padding: 0;
+	width: 20.5rem;
+	margin-left: 6.4rem;
+}
+.print-2{
+	height: 3.6rem;
+	border-top: 0.2rem solid #cc8091;
+}
+.about-2 p{
+	padding-top: 1.5rem;
+	width: 6.5rem;
+	font-size: 1.8rem;
+	color: #040000;
+	margin: 0;
+	border-bottom: 0.2rem solid #555353;
+}
+.print-2 strong{
+	font-size: 2.2rem;
+}
+.about-3{
+	height: 3.7rem;
+	width: 11.8rem;
+	border-bottom: 0.2rem solid #555353;
+}
+.about-3 p{
+	font-size: 1.65rem;
+	color: #040000;
+	padding-top: 0.7rem;
+}
+.about big{
+	font-size: 1.4rem;
+	color: #b8b8b8;
+}
+.amount{
+	height: 13rem;
+}
+.amount em{
+	display: block;
+	height: 13rem;
+	margin-top: -2rem;
+	font-size: 12rem;
+	margin-bottom: 0;
+	color: #75b86b;
+}
+.amount-1 p{
+	display: block;
+	height: 4.5rem;
+	font-size: 5.5rem;
+	color: #cc8091;
+	float: left;
+}
+.amount-1 span{
+	display: block;
+	font-size: 2.2rem;
+	color: #cc8091;
+	margin-bottom: -3rem;
+}
+.cs-1{
+	width: 9rem;
+	height: 6.5rem;
+	float: left;
+}
+.cs{
+	padding-top: 2.8rem;
+	margin-left: 0.5rem;
+}
+.weap-a{
+	width: 23rem;
+	padding: 0;
+	margin-right: 2rem;
+}
+.cs a{
+	color: #d4d3d3;
+}
+.weap-a p{
+	font-size: 1.2rem;
+	color: #767777;
+}
+.what-1{
+	font-size: 1.2rem;
+	color: #767777;
+}
+.what-1 a{
+	color: #cd4a46;
+}
+.what span{
+	display: block;
+	width: 3.5rem;
+	height: 1.9rem;
+	font-size: 1.5rem;
+	color: #549568;
+	border-bottom: 0.1rem solid #549568;
+	margin-bottom: 1rem;
+}
+.when span{
+	display: block;
+	width: 3.5rem;
+	height: 1.9rem;
+	font-size: 1.5rem;
+	color: #d2994f;
+	border-bottom: 0.1rem solid #d2994f;
+	margin-bottom: 1rem;
+}
+.how span{
+	display: block;
+	width: 3.5rem;
+	height: 1.9rem;
+	font-size: 1.5rem;
+	color: #cc7680;
+	border-bottom: 0.1rem solid #cc7680;
+	margin-bottom: 1rem;
+}
+.field{
+	height: 19rem;
+	border-bottom: 0.2rem solid #11456b;
+	margin-bottom: 1.9rem;
+}
+.field em{
+	font-size: 7.2rem;
+	color: #f5e327;
+	margin-right: 2rem;
+}
+.field .too{
+	display: block;
+	height: 9rem;
+}
+.field p{
+	margin-bottom: -1.2rem;
+	font-size: 3.3rem;
+	color: #11456b;
+}
+.field .to{
+	margin-top: 1rem;
+}
+.field-3{
+	float: left;
+	width: 8rem;
+	height: 9rem;
+	margin-top: -1.3rem;
+}
+.field-2{
+	height: 11rem;
+}
+.field-3 strong{
+	font-size: 7rem;
+	margin-right: 0.5rem;
+	color: #f5e327;
+}
+,.field-2 p{
+	margin-top: 2rem;
+}
+.content{
+	width: 23rem;
+	margin-top: -2.7rem;
+}
+.weap-y{
+	margin-top: 2.5rem;
+}
+.content .go{
+	width: 23rem;
+	text-indent: 2.5rem;
+	margin-top: -1rem;
+}
+.content2{
+	margin-top: -1rem;
+	text-indent: 2.5rem;
+}
+.weap-3 p{
+	font-size: 1.2rem;
+	color: #767777;
+	position: relative;
+}
+.good{
+	background-image: url(../img/paper/qian.png);
+	width: 16.5rem;
+	height: 30rem;
+	position: absolute;
+	right: 0;
+	top: 30.5rem;
+}
+.weep-1{
+	width: 45.8rem;
+	padding: 0;
+	margin-left: 2rem;
+}
+.plan{
+	background: url(../img/paper/tu-11.png);
+	width: 45.8rem;
+	height: 25.8rem;
+	position: relative;
+}
+.weap-1{
+	margin-top: 8rem;
+}
+.plan-1{
+	width: 45.8rem;
+	height: 6.2rem;
+	background: #353434;
+	position: absolute;
+	bottom: 0;
+	opacity: 0.5;
+}
+.plan-2{
+	position: absolute;
+	bottom: 0;
+}
+.plan-3{
+	margin-bottom: 0.8rem;
+	margin-left: 3.6rem;
+	height: 4.6rem;
+	width: 40rem;
+	border-left: 0.2rem solid #72b16a;
+}
+.plan-2 p{
+	float: left;
+	line-height: 4.6rem;
+	margin-left: 1.2rem;
+	font-size: 2.6rem;
+	color: #FFFFFF;
+}
+.plan-2 b{
+	margin-left: 1rem;
+	position: absolute;
+	bottom: 0;
+	font-size: 1.2rem;
+	color: #72b16a;
+}
+.plan-3 span{
+	display: block;
+	height: 3.5rem;
+	position: relative;
+}
+.weep-2{
+	width: 45.8rem;
+	height: 32.2rem;
+	background-color: #eeedd6;
+	margin-top: 3.5rem;
+}
+.sbt{
+	padding-top: 3rem;
+	margin-bottom: 2.7rem;
+}
+.sbt p{
+	padding-bottom: 0.8rem;
+	padding-left: 3rem;
+}
+.sbt strong{
+	font-size: 1.3rem;
+	vertical-align: -0.1rem;
+	color: #10456b;
+}
+.one{
+	width: 27.5rem;
+	height: 16rem;
+	background-color: #d45d5c;
+	float: left;
+	padding-top: 4rem;
+}
+.one-1 p{
+	margin-top: -3rem;
+	font-size: 11rem;
+	color: #ffffff;
+	float: left;
+	margin-left: 1rem;
+}
+.one-2{
+	height: 8.8rem;
+	width: 0.5rem;
+	border-right: 0.2rem solid #FFFFFF;
+	font-size: 11rem;
+	color: #ffffff;
+	float: left;
+	margin-right: 0.5rem;
+}
+
+.one-3 p{
+	display: block;
+	height: 2.5rem;
+	margin-bottom: 0;
+	font-size: 2.1rem;
+	color: #FFFFFF;
+}
+.one-3 span{
+	font-size: 1.2rem;
+	color: #FFFFFF;
+}
+.one-3 h6{
+	margin-top: 0.5rem;
+}
+.hold {
+	width: 17rem;
+	height: 16.2rem;
+	margin: 0;
+	padding-left: 0.5rem;
+	float: right;
+}
+.hold p{
+	display: block;
+	height: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+}
+.hold .text{
+	text-indent: 4rem;
+}
+.hold strong{
+	display: block;
+	height: 1rem;
+	font-size: 6rem;
+	color: #d45d5c;
+	margin-right: 0.5rem;
+	position: relative;
+	bottom: 1.3rem;
+	right: 1rem;
+}
+.hold .text-1{
+	position: relative;
+	bottom: 3rem;
+	left: 11.2rem;
+}
+.weap-b{
+	padding: 0;
+	height: 6rem;
+	border-top: 0.2rem solid #938e8c;
+}
+.weap-b a{
+	font-size: 1.2rem;
+	color: #d45d5c;
+	text-indent: 0.3rem;
+	float: right;
+}
+.weap-f{
+	margin-top: 3rem;
+}
+

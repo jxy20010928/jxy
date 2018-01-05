@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>增删改查操作--对象版</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			/*增删改查*/
+			.api_city_info {
+				padding: 5% 25%;
+				background: ghostwhite;
+				/*与body等高*/
+				padding-bottom: 2000px;
+				margin-bottom: -2000px;
+			}
+			.clearfix:after {
+				content: '';
+				height: 0;
+				clear: both;
+				display: block;
+			}
+			/*显示部分*/
+			.api_city_info .info_show {
+				margin-top: 50px;
+			}
+			/*这里用dt做表头,dd做添加的内容,,他们样式完全一样*/
+			
+			.api_city_info .info_show dt span,
+			.api_city_info .info_show dd span {
+				width: 40%;
+				display: inline-block;
+			}
+			/*最后一个是删除按钮*/
+			.api_city_info .info_show dt span:last-child,
+			.api_city_info .info_show dd span:last-child {
+				text-align: end;
+				width: 20%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="api_city_info">
+			<div class="clearfix">
+				<label class="city_name" style="float: left;">城<span style="visibility: hidden;">隐藏</span>市:<input type="text" placeholder="城市名字,请输入汉字" /></label>
+				<button type="button" name="set" style="float: right;">添加</button>
+				<label class="city_data" style="display: block;text-align: center;">空气指数:<input type="text" placeholder="空气指数,请输入数字" /></label>
+			</div>
+			<dl class="info_show">
+				<dt><span>城市</span><span>空气指数</span><span>操作</span></dt>
+			</dl>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var api_city_info = ~ function() {
+			//获取添加按钮
+			var setbtn = document.querySelectorAll('button[name=set]')[0];
+			var show_target = document.querySelectorAll('.api_city_info .info_show')[0]; //info输出目标的父元素--用来添加子节点
+			var show_info = {}; //生成一个对象
+			var show_info_name = {}; //输出的
+			var show_info_data = {}; //输出的
+			//增加按钮点击事件
+			setbtn.onclick = function() {
+				//点击按钮的时候获取先用户输入的信息
+				var city_name = document.querySelectorAll('.api_city_info .city_name input')[0].value;
+				var city_data = document.querySelectorAll('.api_city_info .city_data input')[0].value;
+				//【功能全部写完后，添加输入信息的判断--这里用的正则】
+				if(!/^[\u4E00-\u9AF5]+$/.test(city_name)) { //验证汉字的正则/^[\u4E00-\u9AF5]+$/ ，test()方法检测是否含有匹配的文本，如果有返回true，没有false【这里取反】
+					alert('城市输入错误\n只能输入汉字，请修改！');
+					return;
+				} else if(!/^\d+$/.test(city_data)) {
+					alert('空气指数输入错误\n只能输入数字，请修改！');
+					return;
+					//return结束整个函数，并在结束之前清空输入的信息
+				}
+				//【如果输入正确，继续运行函数】
+				//判断对象是否存在-防止重复
+				if(show_info[city_name] == undefined) { //hasOwnProperty()只能判断自有属性是否存在
+					//if(!show_info[city_name])//也可以
+					console.log('<' + city_name + '>已成功添加\n<正在>打印object··············\n\n\n\n'); //打印状态
+					//向对象添加内容
+					show_info[city_name] = city_data;
+				} else {
+					alert('<' + city_name + '>已存在,请删除后操作！')
+					console.log('<' + city_name + '>已存在,请删除后操作！') //打印状态
+					return;
+				}
+				//生成输出信息
+				for(var m in show_info) {
+					if(m == city_name) {
+						show_info_name = m;
+						show_info_data = show_info[m]
+					}
+				}
+				//然后生成一个节点
+				var show_node = document.createElement('dd');
+				//设置节点内容---我这里html标签样式已经设置好了
+				show_node.innerHTML = "<span title='show_info_name'>" + show_info_name + "</span><span>" + show_info_data + "</span><span><button type='button' name='delete'>删除</button></span>";
+				//向父元素添加节点
+				show_target.appendChild(show_node);
+				//获取删除按钮
+				var deletebtn = document.querySelectorAll('button[name=delete]');
+				//最后为每个删除按钮添加点击事件
+				for(var i = 0; i < deletebtn.length; i++) {
+					//为每个按钮添加删除功能
+					deletebtn[i].onclick = function() {
+						//点击时获取父元素和父元素。。。。用父元素的父元素删除父元素
+						var parent_node = this.parentNode.parentNode; //父元素的父元素【11点34分我又给自身套了一个span标签--所有又往上找了一层】
+						var Oparent_node = parent_node.parentNode; //父元素的父元素
+						Oparent_node.removeChild(parent_node) //节点的删除操作removechild()
+						//删除show_info对应的---这里用 title为 show_info_name的span标签的文本判断
+						var title_show_info_name = parent_node.querySelector('span[title=show_info_name]').innerText;
+						delete show_info[title_show_info_name];
+						console.log('<' + title_show_info_name + '>删除成功！'); //打印状态
+					}
+				}
+				for(var n in show_info) {
+					console.log('key<'+n+'>value<'+show_info[n]+'>'); //成功添加后打印show_info对象
+				}
+			}
+		}()
+	</script>
+
+</html>

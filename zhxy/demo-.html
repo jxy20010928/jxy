@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>demo</title>
+		<style type="text/css">
+			ul {
+				display: block;
+				width: 30.6rem;
+				height: 30.6rem;
+				background: yellowgreen;
+				padding-left: 0;
+				margin: auto;
+			}
+			
+			li {
+				float: left;
+				width: 10rem;
+				height: 10rem;
+				list-style: none;
+				border: 0.1rem solid #FFFFFF;
+			}
+			
+			input {
+				clear:both;
+				width: 15rem;
+				height: 3rem;
+				border: none;
+				background: #ffffff;
+				margin-left: 21rem;
+				margin-top: 1rem;
+				border: 0.1rem solid red;
+			}
+			
+			input:hover {
+				background: orange;
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul id="wrap">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<input type="button" value="开始闪" id="btnone" />
+		<input type="button" value="结束闪" id="btntwo" />
+	</body>
+	<script type="text/javascript">
+		var timer;
+		var wrap = document.getElementById('wrap');
+		var box = wrap.getElementsByTagName('li');
+		var colorarr= ['red','bule','yellow','blue','orange','pink','purple'];
+		var btnone = document.getElementById('btnone');
+		var btntwo = document.getElementById('btntwo');
+		
+		
+		function changebg(){
+			for(var a = 0; a<box.length; a++) {
+				box[a].style.background = 'yellowgreen';
+			};
+			
+			
+			var boxnum = Math.floor(Math.random() *8);
+			var colornum = Math.floor(Math.random() *6);
+			box[boxnum].style.background = colorarr[colornum];
+		};
+		
+		
+		
+		btnone.onclick = function() {
+		changebg();
+		clearInterval(timer)
+		timer = setInterval(changebg, 1000)
+		}
+		
+		btntwo.onclick = function() {
+			clearInterval(timer)
+		}
+	</script>
+
+</html>

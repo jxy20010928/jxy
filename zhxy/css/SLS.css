@@ -1,0 +1,67 @@
+body{	 
+	margin: 0;
+}
+.wrap{
+	height: 460px;
+	background: #eee;
+	border: solid 1px #999;
+	margin: 20px;
+}
+.logo{
+	width: 200px;
+	height: 120px;
+	background: #FFFFFF;
+	margin: 20px;
+	border: solid 1px #999;
+	float: left;
+}
+.logo p{
+	margin-top: 20px;
+	font-size: 14px;
+}
+.logo-1{
+	float: right;
+	padding-right: 20px;
+}
+.logo-3{
+	width: 80px;
+	height: 80px;
+	background: #dfdfdf;
+	margin-left: 20px;
+}
+.logo-3 p{
+	width: 100%;
+	line-height: 80px;
+	padding-left: 10px;
+}
+.wrap-1{
+	width: 120px;
+	height: 420px;
+	background: #FFFFFF;
+	border: solid 1px #999;
+	float: right;
+	margin: 20px;
+	padding: 0;
+}
+.personal{
+	width: 80px;
+	height: 80px;
+	background: #dfdfdf;
+	margin: 20px;
+}
+.personal p{
+	width: 100%;
+	line-height: 80px;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.suggest{
+	border: 1px solid #999;
+	margin: 20px 160px 0 240px;
+	background: #FFFFFF;
+	padding: 20PX;
+}
+.suggest p{
+	font-size: 10px;
+	letter-spacing: 2px;
+}

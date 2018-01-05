@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+<body>
+
+<span>
+	杀手<span id="kill"></span>人<br />
+	平民<span id="people"></span>人
+</span>
+<br />
+
+<input type="text" name="ipt" id="ipt" value="" />
+
+<script type="text/javascript">
+	var ipt=document.getElementById('ipt');
+	var kill=document.getElementById('kill');
+	var people=document.getElementById('people');
+	
+	ipt.onchange=function(){
+		if (ipt.value>8&&ipt.value<=12) {
+			kill.innerHTML=2;
+			people.innerHTML=ipt.value-2;
+		}
+	}
+</script>
+</body>
+</html>

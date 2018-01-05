@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<ul id="oul">
+
+		</ul>
+	</body>
+	<script type="text/javascript">
+		var oul = document.getElementById("oul");
+		
+
+		for(var i = 0; i < 5; i++) {
+			var node = document.createTextNode(i);
+			var test = document.createElement("li");
+			test.appendChild(node);
+			oul.appendChild(test);
+		}
+	</script>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Demo</title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			
+			ul {
+				font-size: 0;
+				width: 50%;
+				margin: auto;
+			}
+			
+			li {
+				width: 33%;
+				padding-bottom: 33%;
+				background: gray;
+				box-sizing: border-box;
+				border: 5px solid #fff;
+				display: inline-block;
+			}
+			
+			.start_btn,
+			.end_btn {
+				position: fixed;
+				top: 50%;
+				/*transform: translateY(-50%);*/
+				margin-top: -25px;/*自身高度的一半,没有高度用不了*/
+				width: 15%;
+				height: 50px;
+				color: #fff;
+				font-size: 23px;
+				border: none;
+			}
+			
+			.start_btn {
+				background: lightskyblue;
+				left: 0;
+				margin-left: 5%;
+			}
+			
+			.end_btn {
+				right: 0;
+				margin-right: 5%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul id="wrap">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<input type="button" value="开始" class="start_btn" />
+		<input type="button" value="结束" class="end_btn" />
+	</body>
+	<script type="text/javascript">
+		var timer; //声明一个变量，控制计时器
+		var wrap = document.getElementById('wrap'); //获取父元素
+		var box = wrap.getElementsByTagName('li'); //获取子元素集合
+		var colorarr = ['red', 'blue', 'black', 'yellow'];
+		var start_btn = document.getElementsByClassName('start_btn')[0]; //第0个类名为"start_btn"的元素
+		var end_btn = document.getElementsByClassName('end_btn')[0]; //第1个类名为"end_btn"的元素
+		//操作
+		function changebg() {
+			for(var a = 0; a < box.length; a++) { //每次重置
+				box[a].style.background = 'gray';
+			}
+			var boxnum = Math.ceil(Math.random() * 8); //0-8
+			var colornum = Math.ceil(Math.random() * 3); //0 1 2 3
+			box[boxnum].style.background = colorarr[colornum];
+		};
+		//点击事件
+		start_btn.onclick = function() {
+			changebg(); //点击先运行一次，过渡一下，1s间隔
+			clearInterval(timer) //每次点击清除计时器，防止计时器叠加
+			timer = setInterval(changebg, 1000) //给变量timer赋值一个计时器
+		}
+		end_btn.onclick = function() {
+			clearInterval(timer) //清除计时器
+		}
+	</script>
+
+</html>

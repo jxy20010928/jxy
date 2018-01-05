@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>桌游精灵</title>
+		<link rel="stylesheet" type="text/css" href="../css/desktop home.css" />
+	</head>
+
+	<body>
+		<!--头-->
+		<div class="header"></div>
+		<!--内容-->
+		<div class="content">
+			<div class="marry">
+				<p>玩家匹配</p>
+			</div>
+			<div class="status">
+				<div><img src="../img/杀手.jpg" />杀手<input type="text" id="kill" value="" />人</div>
+				<div style="margin-left: 30%;"><img src="../img/水民.jpg" />平民<input type="text" id="man" value="" />人</div>
+			</div>
+			<div class="void"></div>
+			<div class="number">
+				<label style="margin-left: 5rem; ">请输入玩家数量</label>
+				<input type="text" id="amount" />
+				<label style="color: #FBB435; font-size: 1.2rem;margin-left: 1rem;">玩家数量为4~18</label>
+			</div>
+			<input type="button" id="input_btn" value="去发牌" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		var input_amount = document.getElementById('amount');
+		var kill = document.getElementById('kill');
+		var man = document.getElementById('man');
+		var total = 'a';
+		input_amount.onkeyup = function() {
+			total = this.value;
+			if(total >= 4 && total <= 8) {
+				kill.value = 2;
+				man.value = total - kill.value;
+			} else if(total > 8 && total <= 12) {
+				kill.value = 3;
+				man.value = total - kill.value;
+			} else if(total > 12 && total <= 15) {
+				kill.value = 4;
+				man.value = total - kill.value;
+			} else if(total > 15 && total <= 18) {
+				kill.value = 5;
+				man.value = total - kill.value;
+			} 
+		}
+		input_amount.onchange = function(){
+			total = this.value;
+			if(total < 4) {
+				alert("请输入4~18的数字")
+			} else if(total > 18) {
+				alert("请输入4~18的数字")
+			}
+		}
+		var input_btn=document.getElementById('input_btn');
+		input_btn.onclick=function(){
+			window.location.href="http://127.0.0.1:8020/zhxy/html/desktop%20leaf.html";
+		}
+	</script>
+
+</html>

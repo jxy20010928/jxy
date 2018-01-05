@@ -1,0 +1,213 @@
+body{
+	background: #eef3fa;
+}
+.subject{
+	
+}
+.motive{
+	background: #FFFFFF;
+	border-left: solid 0.1rem #FFFFFF;
+	border-right: solid  #FFFFFF;
+}
+.whole{
+	height: 7rem;
+	background: #91d4da;
+}
+.active{
+	height: 7rem;
+	float: left;
+}
+.active a{
+	line-height: 7rem;
+	font-size: 2.5rem;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.whole b{
+	display: inline-block;
+	font-size: 4rem;
+	font-weight: bolder;
+	transform: scalex(0.5);
+	vertical-align: -0.3rem;	
+}
+.caption{
+	line-height: 7rem;
+	text-align: center;
+}
+.caption span{
+	font-size: 3rem;
+	color: #FFFFFF;
+	text-align: center;
+}
+.nav{
+	height: 5rem;
+	font-size: 0;
+}
+.nav .nas{
+	border-bottom: solid 0.8rem #91D4DA;
+}
+.nav li{
+	text-align: center;
+	width: 20%;
+	display:inline-block;
+	font-size: 2rem;	
+}
+.nav a{
+	display: block;
+	margin: auto;
+	line-height: 5rem;
+	color: #636363;
+}
+.tab{
+	padding-bottom: 3rem;
+}
+.tab-1{
+	font-size: 0;
+}
+.tab-1 span{
+	width: 20%;
+	display: inline-block;
+	height: 10rem;
+	font-size: 1.5rem;
+	line-height: 5rem;
+	text-align: center;
+}
+.tab-1 span img{
+	width: 7.8rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 3rem;
+}
+.print{
+	padding-bottom: 55%;
+	background: url(../img/yidong/bear;-6.png);
+    background-size: 100% 100%;
+    margin-top: 0.7rem;
+}
+.subfield span{
+	display: inline-block;
+	width: 32.5%;
+	padding-bottom: 2rem;
+}
+.subfield .look{
+	border-right: solid 0.1rem #DEDEDE;
+}
+.subfield .logo img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.subfield span p{
+	font-size: 1.8rem;
+	color: #313131;
+	text-align: center;
+}
+.subfield span .box{
+	padding-top: 1.5rem;
+	font-size: 1.5rem;
+	color: #8f8f8f;
+}
+.subfield span .bod{
+	width: 40%;
+}
+.excision{
+	height: 1.5rem;
+	background: #F5F5F5;
+	margin: 1.5rem 0;
+}
+.module-2 span{
+	display: inline-block;
+	height: 0.1rem;
+    border-bottom: solid 1px #DEDEDE;
+	width: 98%;
+	margin: 2rem 1%;
+}
+.module-1 .bo{
+	padding-left: 1.5rem;
+	font-size: 2.2rem;
+	color: #646464;
+}
+.logo-b{
+	float: left;
+}
+.script{
+	padding-left: 1.5rem;
+	height: 17rem;
+   font-size: 0;
+}
+.script a{
+	font-size: 2rem;
+	padding: 2.3rem 9.3rem;
+	background: #F8F8F8;
+}
+.script span{
+	padding-left: 1.2rem;
+	text-align: center;
+	width: 35%;
+	display: inline-block;
+	margin-bottom: 5rem;
+	padding-top: 2rem;
+}
+.logo-a{
+	float: left;
+}
+.logo-a img{
+	width: 18rem;
+}
+.scr{
+	margin-top: 1rem;
+}
+.works-1{
+	padding-left: 1.5rem;
+}
+.excision p{
+	font-size: 2.2rem;
+}
+.bosw a{
+	font-size: 2.2rem;
+	color: #636363;
+	letter-spacing: 0.5rem;
+}
+.bosw .boss-2{
+	margin: 1rem 0;
+	font-size: 1.8rem;
+	color: #c4c4c4;
+}
+.logo-c{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.logo-c img{
+	width: 33%;
+}
+.block{
+	margin-top: 2rem;
+	height: 8rem;
+	background: #F8F8F8;
+}
+.logo-b img{
+	width: 19rem;
+}
+.r-wrap{
+	width: 37%;
+	float: left;
+	margin-left: 1rem;
+	position: relative;
+	height: 12rem;
+}
+.r-wrap .boss-1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.boss .boss-1{
+	font-size: 1.8rem;
+	color: #c4c4c4;
+	margin-top: 7rem;
+	margin-left: 1rem;
+}
+.r-wrap span{
+	color: #636363;
+	font-size: 2.2rem;
+}

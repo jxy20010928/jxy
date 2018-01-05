@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+
+	<body>
+	</body>
+	<script type="text/javascript">
+		//简单的写法
+		~ function() {
+			var too = [
+				["福州", 10],
+				["北京", 90],
+				["上海", 50],
+				["广州", 50],
+				["成都", 90],
+				["西安", 100]
+			];
+			//大于50的，console.log
+			for(var m = 0; m < too.length; m++) {
+				//这里第二个是数字 ,下标是1
+				if(too[m][1] > 50) {
+					console.log(too[m])
+				}
+				//排序整个数组---sort()方法
+				too.sort(function(e, e2) {
+					//sort()可以接受2个参数，第一个是当前的元素，第二个是当前元素的下一个元素
+					return e[1] > e2[1]; //正序----我习惯用 大于小于号
+					//				return e2[1] >e[1]; //倒序
+					//				return e[1] - e2[1]; //正序
+					//				return e2[1] -e[1]; //倒序
+				})
+				//输出内容
+				documen1613t.write(too[m][0]+too[m][1]+'<br />')
+			}
+			alert(too)
+		}()
+	</script>
+	<script type="text/javascript">
+		//正常的
+		~ function() {
+			var too = [
+				["北京", 90],
+				["上海", 50],
+				["福州", 10],
+				["广州", 50],
+				["成都", 90],
+				["西安", 100]
+			];
+			//大于50的，console.log
+			for(var m = 0; m < too.length; m++) {
+				//这里第二个是数字 ,下标是1
+				if(too[m][too[m].length - 1] > 50) {
+					console.log("我是正常的写法" + too[m])
+				}
+				//排序整个数组---sort()方法
+				too.sort(function(e, e2) {
+					//sort()可以接受2个参数，第一个是当前的元素，第二个是当前元素的下一个元素
+					return e[too[m].length - 1] > e2[too[m].length - 1]; //正序----我习惯用 大于小于号
+				}
+			}
+			alert(too)
+		}()
+	</script>
+
+</html>

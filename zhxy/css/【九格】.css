@@ -1,0 +1,36 @@
+.rattle{
+	width: 33%;
+	float: left;
+	padding-bottom: calc(33% - 12px);
+	outline: dashed;
+}
+.grid-1{
+	background: #008100;
+}
+.grid-2{
+	background: #FF1493;
+}
+.grid-3{
+	background: #8b2ae3;
+}
+.grid-4{
+	background: #0000FF;
+}
+.grid-5{
+	background: #ffa500;
+}
+.grid-6{
+	background: #FF0000;
+}
+.grid-7{
+	background: #ffe5c5;
+}
+.grid-8{
+	background: #000000;
+}
+.grid-9{
+	background: #818181;
+}
+.grid{
+	width: 40%;
+}

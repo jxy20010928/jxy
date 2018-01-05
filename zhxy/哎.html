@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>0</title>
+	</head>
+	<body>
+		<label>输入的值</label><input type="text" id="too" />
+		<input type="button"  value="点击" id="btn"/>
+		<p id="end">得出的值</p>
+	</body>
+	<script type="text/javascript">
+		var end = document.getElementById("end");
+		var btn = document.getElementById("btn");
+		var too = document.getElementById("too");
+		btn.onclick=function() {
+			end.innerHTML="输入的值是"+""+too.value;
+		}
+	</script>
+</html>

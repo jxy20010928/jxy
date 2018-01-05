@@ -1,0 +1,139 @@
+
+body{
+	background: #dedede;
+}
+.Content{
+	background: #ffffff;
+	border-style: solid;
+	border-color: #c8c8c8;
+	border-width: 1px;
+	padding: 20px;
+	margin: 20px;
+}
+.Picture{
+	background: #FFFFFF;
+	border-style: solid;
+	border-color: #C8C8C8;
+	border-width: 1px;
+	padding: 12px 12px 12px 12px;
+	width: 525px;
+	margin: 20px 40px;
+}
+.Picture p{
+	text-align: center;
+}
+.test{
+	background: #ffffff;
+	border-style: solid;
+	border-color: #c8c8c8;
+	border-width: 1px;
+	padding: 30px 20px;
+	margin: 20px;
+}
+
+.box{
+	padding-left: 450px;
+	margin-bottom: 10px;
+}
+.test .box .item {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	padding-right: 30px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.test .box .input{
+	padding: 2px 3px;
+}
+.test .box .fr{
+	margin-top: 20px;
+	padding-left: 180px;
+	color: #808080;
+	}
+.test .box .label{
+	margin-left: 10px;
+	/*position: relative;*/
+	}
+.test .box textarea{
+	padding: 3px 2px;
+	width: 500px;
+	height: 120px;
+	}
+.test .fo{
+				outline: none;
+				width: 100%;
+				background: #3355d0;
+			    color: #FFFFFF;
+				font-size: 12px;
+				font-weight: bold;
+				text-align: center;
+				padding: 10px 0;
+				border-radius: 10px;
+				border: none;
+				letter-spacing: 2px;
+			}
+			
+.button input{
+	border:none;
+	width: 1430px;
+	height: 60px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: blue;
+	font-size: larger; color: white;
+}
+.footer{
+		background: #333333;
+		width: 100%;
+		height: 90px;
+}
+			
+.ran{
+		width: 1450px;
+		height: 100px;
+		padding: 0px 20px;	
+}
+.nav{
+	float: right;
+	width: 600px;
+	margin-top: 20px;
+	margin-right: -50px;
+}
+
+.nav li{
+	float:left;
+	padding: 0px 10px;
+    margin-left: 20px;
+}
+.nav li a {
+		text-decoration: none;
+		color: #FFFFFF;
+		font-size: 20px;
+		padding-right: 10px;
+}
+.logo{
+	float: left;
+	
+}
+.logo img{
+	width: 250px;
+	height: 50px;
+	background: #333333;
+	padding-bottom: 15px;
+	margin-top: 20px;
+}
+.go h2 p{
+	color: #808080;
+}	
+.item{
+	padding-bottom: 10px;
+}
+.item li{
+	padding: 5px;
+	margin-left: 50px;
+}	
+.disport{
+	width: 100%;
+}

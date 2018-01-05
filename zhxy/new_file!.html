@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<label>城市名称：</label><input type="text" id="city" />
+		<label>空气质量指数：</label><input type="text" id="mass" /><br />
+		<input type="button" value="确定添加" id="btn" />
+
+		<table width="100%" id="end">
+			<tr>
+				<td>城市</td>
+				<td>空气指数</td>
+				<td>操作</td>
+			</tr>
+		</table>
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			var btn = document.getElementById('btn');
+			var end = document.getElementById('end');
+ 			var but = {} ;
+			btn.onclick = function() {
+				var city = document.getElementById('city').value;
+				var mass = document.getElementById('mass').value;
+				var reg = /^[1-9]\d*$/;
+				
+				if (reg.test(mass)) {
+					but[city]=[mass];
+					for(var i in but){
+						var tr = document.createElement('tr');
+						tr.innerHTML = "<td>"+i+"</td><td>"+but[i]+"</td><td><button class='deletes'>删除</button></td>"
+						end.appendChild(tr);
+					}
+				}else{
+					alert('请输入正整数');
+				}
+				var deletes = document.getElementsByClassName('deletes');
+				  for(var m=0; m<deletes.length; m++){
+				  	deletes[m].onclick = function(){
+				  		var parent_node = this.parentNode.parentNode;
+						var Faparent_node = parent_node.parentNode;
+						Faparent_node.removeChild(parent_node);
+				  	}
+				  }
+			}
+		}
+	</script>
+
+</html>

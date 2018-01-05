@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('label').mousedown(function() {
+					$('label').css({
+						"outline": "solid 0.2rem #74a6fa",
+					})
+					$('html').mouseover(function() {
+						if($('label').css({
+								"outline": "solid 0.2rem #74a6fa",
+							})) {
+							$('label').css({
+								"outline": "solid 0.2rem transparent",
+							})
+
+						}
+
+					})
+				})
+			})
+		</script>
+
+	
+	</head>
+
+	<body>
+		<div class="form" style="height: 20rem;background: black;">
+			<label style="height: 3rem;background: #ededee;display: inline-block; width: 20%;color: #000;outline: solid 0.2rem transparent;line-height: 3rem;padding-left: 0.5rem;">姓名：
+<input type="text" value="" style="outline: none;border: none; height: 65%;background: #ededee;margin-left: 0.5rem;" />
+</label>
+
+		</div>
+	</body>
+
+</html>

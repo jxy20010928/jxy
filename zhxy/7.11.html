@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			.aqidata_wrap {
+				font-size: 15px;
+				font-weight: 100;
+				width: 50%;
+				margin: auto;
+				list-style-image: url(http://www.w3school.com.cn/i/eg_arrow.gif);
+				padding-bottom: 30px;
+				padding-top: 10px;
+			}
+			
+			.option_btn {
+				padding-top: 10px;
+				width: 50%;
+				margin: auto;
+				display: block;
+			}
+			
+			.option_btn span:first-child {
+				margin-left: -16px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul class="aqidata_wrap">
+			<!--
+			<li>测试</li>
+			<li>测试</li>
+			<li>测试</li>
+			-->
+		</ul>
+		<hr />
+		<label class="option_btn">
+			<span><img src="http://www.w3school.com.cn/i/eg_arrow.gif" />操作:</span>
+			<input type="button" value="升序" name="up"/>
+			<input type="button" value="降序" name="down"/>
+			<input type="button" value="乱序" name="random" /><!--随机-->
+		</label>
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+
+			var aqiData = [
+				['绍兴', 555],
+				['上海', 0],
+				['福州', 121],
+				['北京', 350],
+				['北京', 650],
+				['北京', 1140],
+				['宁波', 750],
+				['北京', 880],
+				['北京', 90],
+				['广州', 1411]
+
+			]
+			//输出内容的方法
+			function show_public() {
+				for(var i = 0; i < aqiData.length; i++) {
+					var show_childnode = document.createElement('li'); //创建节点
+					show_childnode.innerText = aqiData[i][0] + "污染指数是" + aqiData[i][1]; //设置内容
+					show_parent.appendChild(show_childnode)
+				}
+			}
+			//获取取按钮
+			var up_btn = document.querySelectorAll('input[name=up]')[0];
+			var down_btn = document.querySelectorAll('input[name=down]')[0];
+			var random_btn = document.querySelectorAll('input[name=random]')[0];
+			//输出容器
+			var show_parent = document.querySelectorAll('.aqidata_wrap')[0];
+			//文档加载完成：输出内容
+			show_public();
+			up_btn.onclick = function() {//升序按钮
+				//数组排序---这里直接排序原数组
+				aqiData.sort(function(e, e2) {
+					return e[1] > e2[1];
+				})
+				show_parent.innerHTML = ''; //清空内容
+				//再次输出内容
+				show_public();
+			};
+			down_btn.onclick = function() {//降序按钮
+				aqiData.sort(function(e, e2) {
+					return e[1] < e2[1];
+				})
+				show_parent.innerHTML = '';
+				show_public();
+			};
+			random_btn.onclick = function() {//随机排序
+				aqiData.sort(function(e, e2) {
+					return 0.5 - Math.random();
+					//return的值可能是一个大于0的数也或者可能是小于等于0的数，如果return后的值大于0则让【e】和【e2】交换一下位置；小于等于0，则原来数组中的位置不变；
+				})
+				show_parent.innerHTML = '';
+				show_public();
+			}
+		}
+	</script>
+
+</html>
