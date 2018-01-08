@@ -2,19 +2,19 @@
 	margin: 0;
 	padding: 0;
 }
-.box{
+.wrap{
 	background: #5fc0cd;
 	font-size: 64px;
 }
-.box p{
+.wrap p{
 	color: #FFFFFF;
 	
 }
-.box-1{
+.wrap-1{
 	font-size: 50px;
 	
 }
-.text{
+.header{
 	height: 100px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -23,21 +23,21 @@
 	overflow: auto;
 	
 }
-.text a{
+.header a{
 	text-decoration:none;
 	color: #FFFFFF;
 }
-.cen{
+.content{
 	height: 1500px;
 	background: #eff0f4;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.cen img{
+.content img{
 	width: 27px;
 	height: 45px;
 }
-.cen-1{
+.loginbar{
 	height: 100px;
 	background: #FFFFFF;
 	padding-top: 15px;
@@ -46,7 +46,7 @@
 	position: relative;
 
 }
-.cen-1 input{
+.loginbar input{
 	border: none;
 	border-left: 3px solid #eaedee;
 	height: 40px;
@@ -58,7 +58,7 @@
 	outline: none;
 	
 }
-.six{
+.password{
 	height: 100px;
 	background: #FFFFFF;
 	padding-top: 15px;
@@ -67,7 +67,7 @@
 	margin-top: 30px;
 	position: relative;
 }
-.six input{
+.password input{
 	border: none;
 	border-left: 3px solid #EAEDEE;
 	height: 40px;
@@ -79,7 +79,7 @@
 	outline: none;
 	
 }
-.button{
+.login{
 	margin-top: 65px;
 	width: 100%;
 	padding-bottom: 30px;
@@ -89,7 +89,7 @@
 	color: #FFFFFF;
 	
 }
-.six-1 a{
+.forget a{
 	font-size: 40px;
 	text-decoration:none;
 	color: #5FC0CD;

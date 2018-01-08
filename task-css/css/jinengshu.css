@@ -74,10 +74,6 @@ body{
 .good{
 	margin-top: 105px;
 }
-.text{
-	width: 179px;
-	height: 174px;
-}
 .text img{
 	margin-left: 114px;
 }
@@ -365,13 +361,13 @@ body{
 
 }
 .eight ul{
-	margin-left: 28px;
+	margin-left: 31px;
 }
 .eight li{
 	padding-top: 10px;
 	color: #999999;
 	float: left;
-	margin-right: 66px;
+	margin-right: 128px;
 }
 .eight a{
 	color: #999999;
@@ -418,20 +414,20 @@ body{
 
 .b span{
 	font-size: 17px;
-    color: #ffffff;
-    margin-left: 44em;
-    position: relative;
-    top: 3px;
+	color: #ffffff;
+	margin-left: 59em;
+	position: relative;
+	top: 13px;
 }
 .b img{
-	margin-left: 272px;
     margin-top: -40px;
+	float: right;
+	margin-right: 10rem;
 }
 .c p{
-	margin-top: -161px;
-    float: right;
-    position: relative;
-    right: 161px;
+	margin-top: -10.5rem;
+	float: right;
+	margin-right: -8rem;
 }
 .d{
 	height: 31px;
@@ -548,7 +544,9 @@ body{
 	.eight{
 	}
 	.eight li{
-		margin-left: 16px;
+		margin-left: -46px;
+		position: relative;
+		left: 6rem;
 	}
 	.four img{
 		position: relative;
@@ -574,11 +572,14 @@ body{
 		margin-left: 36rem;
 	}
 	.b img{
-		margin-left: 90px;
+		position: relative;
+		top: 7px;
+		left: 39px;
 	}
 	.c p{
 		position: relative;
-		left: -60px;
+		left: 3.5rem;
+		top: 5px;
 	}
 	.mission{
 		margin-bottom: 10px;

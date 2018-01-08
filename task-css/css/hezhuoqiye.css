@@ -5,21 +5,6 @@
 body{
 	background: #FAFAFA !important;
 }
-/*.box{
-	background: #FFFFFF;
-	height: 32px;
-	width: 100%;
-}
-.box p{
-	font-size: 10px;
-	color: #29b078;
-	padding: 7px 0px 0px 130px;
-} 
-.lead img{
-	position: relative;
-    left: 67em;
-    bottom: 20px;
-}*/
 .tip {
 	background: #FFFFFF;
 	padding: 0;
@@ -432,8 +417,8 @@ body{
 		margin-left: 90px;
 	}
 	.c p{
-		float: right;
-    position: relative;
-    left: -77px;
+        float: right;
+        position: relative;
+        left: -60px;
 	}
 }
