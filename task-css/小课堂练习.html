@@ -3,27 +3,46 @@
 <html lang="zh-CN">
     <head>
         <meta charset="utf-8" >
-        <title></title>
+        <title>小课堂练习</title>
         <style type="text/css">
-            *{
-                margin: 0;
-                padding: 0;
+            .radio input {
+                display: none;/*取消默认样式*/
             }
-           #text{
-               background: yellow;
-               width: 500px;
-               height: 500px;
-           }
-            .text.text.text.text.text.text.text.text.text.text.text{
-                background: red;
-                width: 500px;
-                height: 500px;
+            .radio input+label {    /*紧接input出现的label，要有相同父元素*/
+                display: inline-block;
+                position: relative;
+                border-radius: 50%;
+                border: 1px #aaa solid;
+                width: 14px;   /*外圈圆高度、宽度*/
+                height: 14px;
+            }
+            .radio input+label::after {  /*伪元素制作内部的圆*/
+                content: " ";
+                border-radius: 50%;
+                position: absolute;/*居中方法*/
+                top: 50%;
+                left: 50%;
+                width: 6px; /*中心圆的宽度、高度*/
+                height: 6px;
+                margin-top: -3px;
+                margin-left: -3px;
+            }
+
+            .radio input:checked+label {
+                background-color: blue;/*选中后外圈圆颜色*/
+                border-color: blue;
+            }
+            .radio input:checked+label::after {
+                background-color: white;/*选中radio中心圆的颜色*/
             }
     </style>
     </head>
     <body>
-        <div id="text" class="text">这是一个盒子</div>
-
+    <div class=radio>
+        <input type="radio" name="deo" id="deo1">
+        <label for="deo1"></label>
+        <input type="radio" name="deo" id="deo2">
+        <label for="deo2"></label>
+    </div>
     </body>
 </html>
-         
