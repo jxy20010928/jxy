@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/biao.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/daohang.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/lan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/ruler.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/wxewm.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/xiala.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task9-1.css" afterPath="$PROJECT_DIR$/task-css/css/task-10.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/task9-1.html" afterPath="$PROJECT_DIR$/task-css/task9-1.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/text-10.html" afterPath="$PROJECT_DIR$/task-css/text-10.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/小课堂练习.html" afterPath="$PROJECT_DIR$/task-css/小课堂练习.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +39,8 @@
       <file leaf-file-name="text-10.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-css/text-10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2614">
-              <caret line="177" column="14" lean-forward="true" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -169,7 +159,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -306,7 +296,7 @@
       <workItem from="1515805090820" duration="18924000" />
       <workItem from="1515978852958" duration="8066000" />
       <workItem from="1516000186792" duration="5483000" />
-      <workItem from="1516063722147" duration="17118000" />
+      <workItem from="1516063722147" duration="17236000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -441,14 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1515417231029</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="9">
+      <created>1516091364835</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516091364836</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306913000" />
+    <option name="totallyTimeSpent" value="307031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14963119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -826,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/text-10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2614">
-          <caret line="177" column="14" lean-forward="true" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
           <folding />
         </state>
       </provider>
