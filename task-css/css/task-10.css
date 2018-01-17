@@ -486,3 +486,9 @@ body{
     position: relative;
     top: 5px;
 }
+.footer a{
+    color: #999999;
+}
+.footer a:hover{
+    color: #999999;
+}
