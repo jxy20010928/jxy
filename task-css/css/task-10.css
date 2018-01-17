@@ -4,7 +4,7 @@
 }
 body{
     background: #eeeeed !important;
-    min-width: 1900px;
+    /*min-width: 1900px;*/
 }
 .header{
     width: 100%;
@@ -35,6 +35,8 @@ body{
     border: none;
     border-left: 1px solid;
     border-right: 1px solid;
+    outline: none;
+
 }
 .register{
     background-color: #fff;
@@ -47,6 +49,7 @@ body{
     margin-right: -11.3rem;
     margin-top: -24px;
     border: none;
+    outline: none;
 
 }
 .nav{
@@ -71,6 +74,8 @@ body{
     margin-top: 28px;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
+    outline: none;
+
 }
 .box{
     background-color: #fff;
@@ -85,6 +90,8 @@ body{
     margin-right: 4rem;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
+    outline: none;
+
 }
 .customization{
     background-color: #fff;
@@ -99,6 +106,8 @@ body{
     margin-right: 4rem;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
+    outline: none;
+
 }
 .page{
     background-color: #1d7ad9;
@@ -114,6 +123,8 @@ body{
     border-radius: 6px;
     border: 1px solid #e5e5e5;
     outline: double;
+    outline: none;
+
 }
 .subnav{
     width: 100%;
@@ -211,9 +222,6 @@ body{
 .radio span{
     font-size: 19px;
     margin-left: 8px;
-    display: inline-block;
-    position: relative;
-    margin-top: -1rem;
 }
 .radio1{
     margin-left: 3rem;
@@ -233,7 +241,7 @@ body{
     border: 1px solid #e5e5e5;
     float: right;
     margin-right: 2rem;
-    margin-top: -4rem;
+    margin-top: -44px;
 }
 .drop span{
     font-size: 16px;
@@ -413,9 +421,11 @@ body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: 43rem;
+    margin-left: 41%;
     margin-top: 10rem;
     border-radius: 6px;
+    outline: none;
+
 }
 .footer{
     width: 100%;
@@ -423,7 +433,7 @@ body{
 }
 .msg{
     padding-top: 4rem;
-    padding-left: 27rem;
+    padding-left: 16%;
 }
 .msg span{
     font-size: 18px;
