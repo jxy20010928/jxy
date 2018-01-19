@@ -385,19 +385,15 @@ body{
     margin-top: 3.5rem;
 }
 .radio7{
-    margin-left: 19rem;
+    margin-left: 18rem;
     margin-top: -2.3rem;
 }
 .radio8{
-    margin-left: 35rem;
+    margin-left: 33rem;
     margin-top: -2.3rem;
 }
 .radio9{
-    margin-left: 51rem;
-    margin-top: -2.3rem;
-}
-.radio10{
-    margin-left: 68rem;
+    margin-left: 48rem;
     margin-top: -2.3rem;
 }
 .next{
@@ -491,4 +487,10 @@ body{
 }
 .footer a:hover{
     color: #999999;
+}
+.foot a{
+    color: #FFFFFF;
+}
+.foot a:hover{
+    color: #FFFFFF;
 }
