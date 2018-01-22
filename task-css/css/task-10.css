@@ -30,7 +30,7 @@ body{
     text-decoration: none;
     display: inline-block;
     float: right;
-    margin-right: 5rem;
+    margin-right: 81px;
     margin-top: -23px;
     border: none;
     border-left: 1px solid;
@@ -72,6 +72,7 @@ body{
     display: inline-block;
     float: right;
     margin-top: 28px;
+    margin-right: -81px;
     border-radius: 6px;
     border: 1px solid #e5e5e5;
     outline: none;
@@ -221,7 +222,10 @@ body{
 }
 .radio span{
     font-size: 19px;
-    margin-left: 8px;
+    margin-left: -91px;
+    position: relative;
+    left: 8rem;
+    top: -4px;
 }
 .radio1{
     margin-left: 3rem;
@@ -413,15 +417,15 @@ body{
     background-color: #e15053;
     border: none;
     color: white;
-    padding: 20px 90px;
+    padding: 10px 65px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-left: 41%;
+    margin-left: 39%;
     margin-top: 10rem;
     border-radius: 6px;
     outline: none;
-
+    font-size: 40px;
 }
 .footer{
     width: 100%;
@@ -429,7 +433,7 @@ body{
 }
 .msg{
     padding-top: 4rem;
-    padding-left: 16%;
+    padding-left: 17%;
 }
 .msg span{
     font-size: 18px;
@@ -452,7 +456,7 @@ body{
     width: 246px;
     height: 100px;
     float: right;
-    margin-right: 5rem;
+    margin-right: 17%;
     margin-top: -4rem;
 }
 .connection span{
@@ -484,12 +488,14 @@ body{
 }
 .footer a{
     color: #999999;
+    text-decoration:none;
 }
-.footer a:hover{
-    color: #999999;
-}
+.footer a:hover{color: #999999;}
+.footer a:visited {color:#999999}
+.footer a:active {color:#1d7ad9}
 .foot a{
     color: #FFFFFF;
+    text-decoration:none;
 }
 .foot a:hover{
     color: #FFFFFF;
