@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/login.css" afterPath="$PROJECT_DIR$/task-css/css/login.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/login.less" afterPath="$PROJECT_DIR$/task-css/css/login.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/login.html" afterPath="$PROJECT_DIR$/task-css/login.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/ppt练习2.html" afterPath="$PROJECT_DIR$/task-css/ppt练习2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -191,7 +187,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -354,7 +350,7 @@
       <workItem from="1516764691016" duration="54000" />
       <workItem from="1516764880875" duration="145000" />
       <workItem from="1516765163130" duration="130000" />
-      <workItem from="1516766315718" duration="7765000" />
+      <workItem from="1516766315718" duration="7827000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -538,14 +534,21 @@
       <option name="project" value="LOCAL" />
       <updated>1516604906260</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="11">
+      <created>1516783353700</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1516783353700</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402395000" />
+    <option name="totallyTimeSpent" value="402457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12223393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -584,7 +587,8 @@
     <MESSAGE value="ht" />
     <MESSAGE value="9" />
     <MESSAGE value="10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
