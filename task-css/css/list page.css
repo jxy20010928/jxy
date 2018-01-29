@@ -18,15 +18,15 @@
 }
 .alone span{
 	font-size: 32px;
-	color: #FFFFFF;
-	line-height: 75px;
+color: #FFFFFF;
+line-height: 75px;
 }
 .arrow{
 	width: 170px;
 	height: 76px;
 	background: #FFFFFF;
-    border-radius: 15px ;
-    float: right;
+	border-radius: 15px ;
+	float: right;
 }
 .arrow span	{
 	font-size: 32px;
@@ -35,8 +35,8 @@
 .box img{
 	text-align: right;
 	float: right;
-    margin-top: -60px;
-    margin-right: 36px;
+	margin-top: -60px;
+	margin-right: 36px;
 }
 .botton{
     margin-top: 23px;
