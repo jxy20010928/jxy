@@ -50,8 +50,18 @@
   width: 33.33%;
   height: 10vw;
   border-right: 1px solid #e5e5e5;
-  padding-left: 3vw;
   border-bottom: 1px solid #e5e5e5;
+}
+.head .seat select {
+  width: 30vw;
+  height: 9vw;
+  border: none;
+  outline: none;
+  font-size: 4vw;
+  padding-left: 3vw;
+}
+.head .seat select option {
+  font-size: 3vw;
 }
 .head .seat span {
   font-size: 4vw;
@@ -97,12 +107,13 @@
   margin-left: 3vw;
 }
 .calendar span {
-  font-size: 1.5vw;
+  font-size: 3.5vw;
   color: #999999;
   margin-left: 4vw;
 }
 .calendar img {
-  height: 2vw;
+  height: 3vw;
+  margin-top: -1.5vw;
 }
 .calendar .big {
   margin-top: 1vw;
@@ -112,8 +123,8 @@
   color: #000000;
 }
 .calendar .change {
-  margin-top: -2.1vw;
-  margin-left: 69vw;
+  margin-top: -5.1vw;
+  margin-left: 62vw;
 }
 .calendar .change span {
   color: #E26163;
