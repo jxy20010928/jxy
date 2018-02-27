@@ -7,14 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-12-2.css" afterPath="$PROJECT_DIR$/task-css/css/task-12-2.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-12-2.less" afterPath="$PROJECT_DIR$/task-css/css/task-12-2.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-2.css" afterPath="$PROJECT_DIR$/task-css/css/task-13-2.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-2.less" afterPath="$PROJECT_DIR$/task-css/css/task-13-2.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.css" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.less" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-12-2.html" afterPath="$PROJECT_DIR$/task-css/task-12-2.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-14-1.html" afterPath="$PROJECT_DIR$/task-css/task-14-1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -90,8 +82,8 @@
       <file leaf-file-name="task-12-2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-css/task-12-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="119" column="22" lean-forward="true" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+            <state relative-caret-position="512">
+              <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -244,7 +236,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="326" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -472,7 +464,7 @@
       <workItem from="1519606825915" duration="19000" />
       <workItem from="1519607203364" duration="2785000" />
       <workItem from="1519615901403" duration="13621000" />
-      <workItem from="1519695012165" duration="1006000" />
+      <workItem from="1519695012165" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -726,15 +718,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518079215395</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="12">
+      <created>1519696043220</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1519696043220</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603848000" />
+    <option name="totallyTimeSpent" value="603893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1107,8 +1105,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/task-12-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="119" column="22" lean-forward="true" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        <state relative-caret-position="512">
+          <caret line="135" column="20" lean-forward="true" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
           <folding />
         </state>
       </provider>
