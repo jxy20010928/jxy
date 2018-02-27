@@ -177,3 +177,9 @@
 .own img {
   height: 5.9vw;
 }
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 14vw;
+}
