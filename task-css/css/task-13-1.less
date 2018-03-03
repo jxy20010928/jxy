@@ -19,6 +19,13 @@ body{
     margin-top: 2.7vw;
     margin-left: 2.7vw;
     }
+  a{
+    font-size: 2vw;
+    color: #fff;
+    float: right;
+    margin-right: 4vw;
+    line-height: 10.27vw;
+  }
   }
   .main{
   .head{
@@ -33,13 +40,14 @@ body{
    p{
      font-size: @font-size;
      color: #9A9A9A;
-     margin-top: 5.27vw;
+     line-height: 16.25vw;
   }
    img{
      height: 5.83vw;
      position: relative;
-     top: -9vw;
-     left: 83vw;
+     float: right;
+     margin-top: -12vw;
+     margin-right: 3vw;
     }
   }
   .game{
@@ -78,10 +86,14 @@ body{
     position: relative;
     left: 12vw;
     top: 4vw;
- p{
+ a{
    font-size: @font-size;
    color: @color;
    line-height: 18.88vw;
+   margin-left: 40%;
+   position: relative;
+   top: -2vw;
+   text-decoration: none;
    }
   }
 
@@ -91,7 +103,7 @@ body{
     color: #787878;
     position: relative;
     top: -7vw;
-    left: 10.88vw;
+    left: 11.88vw;
   }
  img{
     margin: -193px 0px 156px 105%;
@@ -107,11 +119,27 @@ body{
       border: 0.15vw solid #d0d0d0;
       border-top: 0;
     }
-    .footer img{
-      height: 3vw;
-      position: relative;
-      top: -7vw;
-      left: 41vw;
+    .recent {
+      height: 5vw;
+      margin-top: -7vw;
+      span {
+        display: block;
+        width: 3vw;
+        height: 3vw;
+        border: 0.1vw solid #aaaaaa;
+        border-radius: 50%;
+        float: left;
+        margin-right: 0.5vw;
+        margin-top: -1vw;
+      }
+      span:hover {
+        background: #29BDE0;
+      }
+      p {
+        display: block;
+        width: 14vw;
+        margin: auto;
+      }
     }
 
   }

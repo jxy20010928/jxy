@@ -18,6 +18,13 @@ body {
   margin-top: 2.7vw;
   margin-left: 2.7vw;
 }
+.header .menu a {
+  font-size: 2vw;
+  color: #fff;
+  float: right;
+  margin-right: 4vw;
+  line-height: 10.27vw;
+}
 .header .main .head {
   border: 0.15vw solid #d0d0d0;
   border-radius: 0.3vw;
@@ -30,13 +37,14 @@ body {
 .header .main .head p {
   font-size: 4.16vw;
   color: #9A9A9A;
-  margin-top: 5.27vw;
+  line-height: 16.25vw;
 }
 .header .main .head img {
   height: 5.83vw;
   position: relative;
-  top: -9vw;
-  left: 83vw;
+  float: right;
+  margin-top: -12vw;
+  margin-right: 3vw;
 }
 .header .main .game {
   border: 0.15vw solid #d0d0d0;
@@ -75,17 +83,21 @@ body {
   left: 12vw;
   top: 4vw;
 }
-.header .main .version2 p {
+.header .main .version2 a {
   font-size: 4.16vw;
   color: #ffffff;
   line-height: 18.88vw;
+  margin-left: 40%;
+  position: relative;
+  top: -2vw;
+  text-decoration: none;
 }
 .header .main .user p {
   font-size: 3vw;
   color: #787878;
   position: relative;
   top: -7vw;
-  left: 10.88vw;
+  left: 11.88vw;
 }
 .header .main .user img {
   margin: -193px 0px 156px 105%;
@@ -100,9 +112,25 @@ body {
   border: 0.15vw solid #d0d0d0;
   border-top: 0;
 }
-.header .main .footer img {
+.header .main .recent {
+  height: 5vw;
+  margin-top: -7vw;
+}
+.header .main .recent span {
+  display: block;
+  width: 3vw;
   height: 3vw;
-  position: relative;
-  top: -7vw;
-  left: 41vw;
+  border: 0.1vw solid #aaaaaa;
+  border-radius: 50%;
+  float: left;
+  margin-right: 0.5vw;
+  margin-top: -1vw;
+}
+.header .main .recent span:hover {
+  background: #29BDE0;
+}
+.header .main .recent p {
+  display: block;
+  width: 14vw;
+  margin: auto;
 }

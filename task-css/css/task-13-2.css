@@ -26,7 +26,7 @@ body {
   height: 5.13vw;
   float: right;
   position: relative;
-  top: -12.5vw;
+  top: -11.5vw;
   right: 3.2vw;
 }
 .bady {
@@ -44,7 +44,7 @@ body {
   height: 7.2vw;
   float: right;
   position: relative;
-  top: -5vw;
+  top: -4vw;
 }
 .big p {
   font-size: 3vw;
@@ -100,4 +100,8 @@ body {
   width: 100%;
   padding-top: 5.8vw;
   padding-bottom: 5.8vw;
+}
+.one a {
+  color: #fff;
+  font-size: 2vw;
 }

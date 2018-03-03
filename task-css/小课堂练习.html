@@ -1,48 +1,17 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN">-+
     <head>
         <meta charset="utf-8" >
         <title>小课堂练习</title>
-        <style type="text/css">
-            .radio input {
-                display: none;/*取消默认样式*/
-            }
-            .radio input+label {    /*紧接input出现的label，要有相同父元素*/
-                display: inline-block;
-                position: relative;
-                border-radius: 50%;
-                border: 1px #aaa solid;
-                width: 14px;   /*外圈圆高度、宽度*/
-                height: 14px;
-            }
-            .radio input+label::after {  /*伪元素制作内部的圆*/
-                content: " ";
-                border-radius: 50%;
-                position: absolute;/*居中方法*/
-                top: 50%;
-                left: 50%;
-                width: 6px; /*中心圆的宽度、高度*/
-                height: 6px;
-                margin-top: -3px;
-                margin-left: -3px;
-            }
-
-            .radio input:checked+label {
-                background-color: blue;/*选中后外圈圆颜色*/
-                border-color: blue;
-            }
-            .radio input:checked+label::after {
-                background-color: white;/*选中radio中心圆的颜色*/
-            }
-    </style>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/小课堂练习.css">
     </head>
     <body>
     <div class=radio>
-        <input type="radio" name="deo" id="deo1">
-        <label for="deo1"></label>
-        <input type="radio" name="deo" id="deo2">
-        <label for="deo2"></label>
+       <p>小猪佩奇身上纹，掌声送给</p>
+        <img src="img/ddd.png" alt="">
     </div>
     </body>
 </html>
