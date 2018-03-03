@@ -6,24 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/css/小课堂练习.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/css/小课堂练习.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/img/ddd.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-1.css" afterPath="$PROJECT_DIR$/task-css/css/task-13-1.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-1.less" afterPath="$PROJECT_DIR$/task-css/css/task-13-1.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-2.css" afterPath="$PROJECT_DIR$/task-css/css/task-13-2.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-2.less" afterPath="$PROJECT_DIR$/task-css/css/task-13-2.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-3.css" afterPath="$PROJECT_DIR$/task-css/css/task-13-3.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-13-3.less" afterPath="$PROJECT_DIR$/task-css/css/task-13-3.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.css" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.less" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/jinengshu.html" afterPath="$PROJECT_DIR$/task-css/jinengshu.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-13-1.html" afterPath="$PROJECT_DIR$/task-css/task-13-1.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-13-2.html" afterPath="$PROJECT_DIR$/task-css/task-13-2.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-13-3.html" afterPath="$PROJECT_DIR$/task-css/task-13-3.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-14-1.html" afterPath="$PROJECT_DIR$/task-css/task-14-1.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/小课堂练习.html" afterPath="$PROJECT_DIR$/task-css/小课堂练习.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +26,8 @@
       <file leaf-file-name="task-13-1.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task-css/css/task-13-1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="116" column="18" lean-forward="true" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+            <state relative-caret-position="627">
+              <caret line="138" column="23" lean-forward="true" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -54,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/task-css/task-13-2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="893">
-              <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+              <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -63,8 +46,8 @@
       <file leaf-file-name="task-13-3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-css/task-13-3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="1026">
+              <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -73,7 +56,7 @@
       <file leaf-file-name="task-13-3.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-css/css/task-13-3.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="2755">
               <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
               <folding />
             </state>
@@ -83,7 +66,7 @@
       <file leaf-file-name="task-14-1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task-css/css/task-14-1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
+            <state relative-caret-position="4066">
               <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
               <folding />
             </state>
@@ -103,7 +86,7 @@
       <file leaf-file-name="小课堂PPT模板.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/小课堂/PPT/小课堂PPT模板.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
+            <state relative-caret-position="2147">
               <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
             </state>
@@ -277,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,7 +318,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,7 +483,8 @@
       <workItem from="1519866192868" duration="9654000" />
       <workItem from="1519957783799" duration="1532000" />
       <workItem from="1519980390104" duration="7741000" />
-      <workItem from="1520039151088" duration="12420000" />
+      <workItem from="1520039151088" duration="13662000" />
+      <workItem from="1520089548365" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -761,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519696043220</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="13">
+      <created>1520086889581</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520086889581</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660358000" />
+    <option name="totallyTimeSpent" value="661603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -809,7 +800,8 @@
     <MESSAGE value="10" />
     <MESSAGE value="11" />
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="13" />
+    <option name="LAST_COMMIT_MESSAGE" value="13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1032,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5719">
           <caret line="301" column="1" lean-forward="false" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5320">
           <caret line="280" column="27" lean-forward="false" selection-start-line="280" selection-start-column="27" selection-end-line="280" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2204">
           <caret line="116" column="1" lean-forward="true" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,14 +1056,6 @@
     <entry file="file://$USER_HOME$/Desktop/ddd.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task-css/css/task-14-1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/css/小课堂练习.less">
@@ -1104,7 +1084,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/小课堂/PPT/小课堂PPT模板.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
+        <state relative-caret-position="2147">
           <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding />
         </state>
@@ -1112,7 +1092,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/css/task-13-3.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="2755">
           <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
           <folding />
         </state>
@@ -1128,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/task-13-3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        <state relative-caret-position="1026">
+          <caret line="54" column="30" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1137,15 +1117,23 @@
     <entry file="file://$PROJECT_DIR$/task-css/task-13-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
-          <caret line="47" column="43" lean-forward="true" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <caret line="47" column="43" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/css/task-13-1.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="116" column="18" lean-forward="true" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        <state relative-caret-position="627">
+          <caret line="138" column="23" lean-forward="true" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-css/css/task-14-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4066">
+          <caret line="214" column="1" lean-forward="false" selection-start-line="214" selection-start-column="1" selection-end-line="214" selection-end-column="1" />
           <folding />
         </state>
       </provider>
