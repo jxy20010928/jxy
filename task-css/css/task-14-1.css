@@ -225,3 +225,39 @@
   line-height: 18rem;
   text-align: -webkit-center;
 }
+.friendly {
+  padding: 0;
+  background: #ffffff;
+}
+.friendly .end {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+}
+.friendly .fa {
+  width: 1200px;
+  margin: auto;
+  height: 10rem;
+}
+.friendly .fa ul {
+  margin-top: 2rem;
+}
+.friendly .fa li {
+  font-size: 1.4rem;
+  color: #999999;
+  width: 6rem;
+  line-height: 3rem;
+}
+.friendly .fa li:hover {
+  border-bottom: 0.2rem solid #26a26f;
+}
+.friendly .fa span {
+  float: left;
+  display: block;
+  width: 6rem;
+  height: 3rem;
+  margin-right: 5.6rem;
+}
+.friendly .fa .kind {
+  margin-right: 0;
+}
