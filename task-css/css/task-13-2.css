@@ -46,20 +46,23 @@ body {
   position: relative;
   top: -4vw;
 }
-.big p {
+.botton {
+  padding-bottom: 25rem;
+}
+.botton .big p {
   font-size: 3vw;
   color: #FFFFFF;
   position: relative;
   top: 3.4vw;
   margin-left: 10vw;
 }
-.row.text-center {
+.botton .row.text-center {
   margin-top: 6.1vw;
   background: #29BDE0;
   margin-right: 0vw;
   margin-left: 0vw;
 }
-.box {
+.botton .box {
   width: 18.8vw;
   height: 18.8vw;
   margin-left: 4.8vw;
@@ -68,7 +71,7 @@ body {
   border: solid #FFFFFF 0.8vw;
   display: inline-block;
 }
-.box-1 {
+.botton .box-1 {
   color: #565656;
   background: #f5c97b;
   padding-top: 4.5vw;
@@ -76,7 +79,7 @@ body {
   height: 13.9vw;
   margin: -0.1vw 0 -1vw;
 }
-.box-2 {
+.botton .box-2 {
   color: #FFFFFF;
   background: #83b09a;
   font-size: 2.9vw;
