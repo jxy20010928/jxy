@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/task-css/task-12-2.html" line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,8 +56,8 @@
           <file leaf-file-name="task-13-2.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task-css/css/task-13-2.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="622">
-                  <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+                <state relative-caret-position="432">
+                  <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -461,7 +459,7 @@
       <workItem from="1520214915038" duration="13059000" />
       <workItem from="1520297843319" duration="5802000" />
       <workItem from="1520319962847" duration="6493000" />
-      <workItem from="1520336204394" duration="623000" />
+      <workItem from="1520336204394" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -761,7 +759,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="687989000" />
+    <option name="totallyTimeSpent" value="688283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -1163,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/css/task-13-2.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding />
         </state>
       </provider>
