@@ -39,7 +39,7 @@
     }
     span:hover {
       display: block;
-      border-bottom: 0.3rem solid #FFFFFF;
+      border-bottom: 0.3rem solid @color;
     }
     ul {
       float: right;
@@ -48,7 +48,7 @@
     float: left;
     list-style: none;
     font-size: 1.6rem;
-    color: #FFFFFF;
+    color: @color;
     line-height: 10rem;
     margin-left: 3.5rem;
   }
@@ -63,6 +63,9 @@
   position: absolute;
   top: 35px;
 }
+.box{
+  width: 68%;
+  margin: auto;
 .weap {
   width: 100%;
   margin-top: 70rem;
@@ -71,7 +74,11 @@
   margin-bottom: 8rem;
 }
 
-.pieced {
+.pieced{
+  width: 25%;
+  padding-bottom: 8rem;
+  float: left;
+  height: 29rem;
   p {
     font-size: 1.4rem;
     margin-top: 1rem;
@@ -79,11 +86,8 @@
     margin-right: 7rem;
   }
   a {
-    font-size: 1.6rem;
-  }
-  a {
-    position: absolute;
-    left: 0;
+    position: relative;
+    left: -3rem;
     font-size: 1.6rem;
     color: #999999;
   }
@@ -92,10 +96,56 @@
     margin-right: 7rem;
    }
 }
+.pieced1 {
+  width: 25%;
+  padding-bottom: 8rem;
+  float: left;
+  height: 29rem;
+  p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+  }
+  a {
+    position: relative;
+    left: -3rem;
+    font-size: 1.6rem;
+    color: #999999;
+  }
+  img {
+    height: 6.2rem;
+    margin-right: 7rem;
+  }
+}
+.pieced2 {
+  width: 25%;
+  padding-bottom: 8rem;
+  float: left;
+  height: 29rem;
+  p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+  }
+  a {
+    position: relative;
+    left: -3rem;
+    font-size: 1.6rem;
+    color: #999999;
+  }
+  img {
+    height: 6.2rem;
+    margin-right: 7rem;
+  }
+}
 .pieced-1 {
-  padding-top: 3.5rem;
+  width: 25%;
   border-left: 0.1rem dashed #AAAAAA;
   font-size: 1.8rem;
+  float: left;
+  height: 19rem;
   p {
     color: #999999;
     margin-top: 1.5rem;
@@ -106,6 +156,7 @@
   }
   img {
     margin-right: 1rem;
+    padding-top: 3rem;
   }
 }
 
@@ -124,14 +175,18 @@
     }
   }
   .met {
-    text-align: center;
     font-size: 1.8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 15rem;
+    position: relative;
+    right: 40rem;
+    top: 8rem;
   }
 
 .method-1 {
-  height: 8rem;
+  height: 9rem;
   position: relative;
+  width: 26rem;
+  display: inline-block;
   img{
     margin-top: -8rem;
     margin-left: 23rem;
@@ -145,7 +200,7 @@
   width: 6.5rem;
   height: 6.5rem;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: @color;
   line-height: 6.5rem;
   text-align: center;
   margin-top: -1rem;
@@ -166,14 +221,15 @@
       font-size: 1.8rem;
     }
     .blue{
-      width: 100%;
+
     }
   }
   .blue-1 {
+    margin-left: 3rem;
     margin-top: 2rem;
     width: 22%;
     height: 36.7rem;
-    background: #FFFFFF;
+    background: @color;
     text-align: center;
     float: left;
     padding-top: 2rem;
@@ -219,10 +275,13 @@ span {
 p {
   text-align: center;
   font-size: 1.8rem;
+  position: relative;
+  right: 29.6rem;
+  top: 8rem;
 }
   span {
   float: left;
-  background: #FFFFFF;
+  background: @color;
   height: 17.5rem;
   box-shadow: 1px 1px 3px #888888;
 }
@@ -235,12 +294,14 @@ p {
   width: 20%;
   height: 20rem;
   line-height: 18rem;
+  margin-top: 11rem;
+  margin-bottom: 5rem;
   text-align: -webkit-center;
 }
 }
 .friendly {
   padding: 0;
-  background: #ffffff;
+  background: @color;
   padding-left: 3vw;
  .end {
   text-align: center;
@@ -249,7 +310,7 @@ p {
 }
 
 .fa {
-  width: 1200px;
+  width: 102%;
   margin: auto;
   height: 10rem;
   ul {
@@ -276,7 +337,9 @@ p {
   }
 }
 }
-  .such{
+}
+
+.such{
     background: #29B078;
     padding: 0;
   .ending-1{
@@ -287,7 +350,7 @@ p {
     .left-ending{
       font-size: 1.4rem;
       p{
-        color: #FFFFFF;
+        color: @color;
         margin-bottom: 8rem;
       }
       a{
@@ -297,17 +360,22 @@ p {
     .centre-ending{
       color: #fff;
       font-size: 1.4rem;
+      margin-top: -11rem;
+      padding-left: 36rem;
       p{
         margin-bottom: 3rem;
       }
     }
     .right-ending{
       text-align: right;
+      margin-top: -15rem;
       p{
         color: #fff;
         padding-right: 12px;
       }
+      .pieced{
 
+      }
     }
     }
     .last{
@@ -321,5 +389,151 @@ p {
   }
 
   @media (max-width: 768px) {
-    .
+    .nav{
+    li{
+      margin-left: 1rem;
+      position: relative;
+      right: 5rem;
+    }
+      img{
+      padding-left: 0vw;
+      }
+    }
+    .weap{
+      margin-top: 35rem;
+      .pieced{
+        width: 100% !important;
+        margin-top: -34rem;
+        img{
+        margin: auto;
+      }
+        p{
+          margin: auto;
+          font-size: 1.5rem;
+          padding-top: 2rem;
+        }
+        .pie{
+          a{
+            padding-left: 8rem;
+          }
+        }
+      }
+      .pieced1{
+        width: 100% !important;
+        margin-top: -10rem;
+        img{
+          margin: auto;
+        }
+        p{
+          margin: auto;
+          font-size: 1.5rem;
+          padding-top: 2rem;
+        }
+        .pie1{
+          a{
+            padding-left: 8rem;
+          }
+        }
+      }
+      .pieced2{
+        width: 100% !important;
+        margin-top: -6rem;
+        img{
+          margin: auto;
+        }
+        p{
+          margin: auto;
+          font-size: 1.5rem;
+          padding-top: 2rem;
+        }
+        .pie2{
+          a{
+            padding-left: 8rem;
+          }
+        }
+      }
+      .pieced-1{
+        width: 100% !important;
+        margin-top: -10rem;
+        img{
+          margin: auto;
+        }
+        p{
+          margin: auto;
+          font-size: 1.5rem;
+          padding-top: 2rem;
+        }
+        .pie1{
+          a{
+            padding-left: 8rem;
+          }
+        }
+      }
+      .blue-1{
+        width: 100%;
+        margin-left: 0;
+      }
+      .company{
+        margin-bottom: 10rem;
+        position: relative;
+        top: 4rem;
+        p{
+          position: relative;
+          top: 5rem;
+          right: 13.2rem;
+        }
+        .logo{
+          width: 100%;
+          position: relative;
+          top: 13rem;
+          margin-top: -3rem;
+        }
+      }
+      .friendly{
+        margin-top: 125rem;
+        padding-left: 4rem;
+        .fa{
+          width: 100%;
+          span{
+            height: 4rem;
+            width: 3rem;
+            margin-right: 4.6rem;
+          }
+        }
+      }
+    }
+    .such{
+      margin-top: 7rem;
+    .ending-1{
+      width: 100% !important;
+      height: 26rem !important;
+      display: inline-block;
+      .left-ending{
+        p{
+          margin-bottom: 8rem !important;
+        }
+        a{
+          position: relative;
+          top: -8rem;
+        }
+      }
+      .centre-ending{
+        margin-left: -36rem;
+        margin-top: -8rem;
+        p{
+        margin-bottom: 0rem !important;
+        }
+      }
+      .right-ending{
+        float: left;
+        padding-top: 15rem;
+        p{
+          margin-top: 0px;
+          position: relative;
+          left: -9px;
+        }
+      }
+    }
+    }
+
   }
