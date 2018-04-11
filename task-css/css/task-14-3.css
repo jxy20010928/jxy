@@ -121,7 +121,129 @@ body {
   line-height: 8rem;
   margin: auto;
   border-bottom: 1px solid #d0d6d9;
+  margin-bottom: 4rem;
 }
 .subnav .tab b {
   font-size: 2rem;
+}
+.main {
+  width: 100%;
+}
+.main .main1 {
+  width: 70%;
+  margin: auto;
+}
+.main .main1 .content {
+  width: 36.7rem;
+  height: 44.5rem;
+  border: 1px solid;
+}
+.main .main1 .content .veil {
+  width: 36.5rem;
+  height: 44.3rem;
+  background: #120e0b;
+  opacity: 0;
+  position: absolute;
+  padding: 8.5rem 4.3rem;
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  transition: all 2s;
+  transform-origin: 50% 0;
+}
+.main .main1 .content .veil .veil-1 {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.main .main1 .content .part {
+  float: left;
+  padding: 2rem 1rem;
+}
+.main .main1 .content .about {
+  padding-top: 4rem;
+  width: 100%;
+  height: 37%;
+}
+.main .main1 .content .about b {
+  font-size: 1.7rem;
+}
+.main .main1 .content .about p {
+  padding-top: 1rem;
+}
+.main .main1 .content .bitted {
+  margin-top: 25px;
+}
+.main .main1 .content .bitted span {
+  display: block;
+  width: 50%;
+  height: 4rem;
+  border-top: 0.1rem solid #eeeded;
+}
+.main .main1 .content .bitted a {
+  color: red;
+}
+.main .main1 .content .bitted p {
+  line-height: 4rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #999999;
+  margin-bottom: 0;
+}
+.main .main1 .content .bitted img {
+  vertical-align: -0.3rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-left: 1.5rem;
+}
+.main .main1 .content .bitted .left-part {
+  border-right: 0.1rem solid #eeeded;
+}
+.main .main1 .content .bitted .pay {
+  height: 10.6rem;
+  border-top: 0.1rem solid #eeeded;
+  border-bottom: 0.1rem solid #eeeded;
+  margin-top: 0.1rem;
+}
+.main .main1 .content .bitted .pay .clear {
+  clear: both;
+}
+.main .main1 .content .bitted .pay .par-1 {
+  text-align: center;
+  width: 15.4rem;
+  border-right: 0.1rem solid #eeeded;
+  font-size: 1.2rem;
+  color: #999999;
+  line-height: 10.6rem;
+}
+.main .main1 .content .bitted .pay .par-2 {
+  padding-left: 15.4rem;
+}
+.main .main1 .content .bitted .pay .par-2 span {
+  height: 3.5rem;
+  border: 0.1rem solid #eeeded;
+  width: 186px;
+  margin-left: -1px;
+}
+.main .main1 .content .bitted .pay .par-2 p {
+  line-height: 0.5rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.main .main1 .content .bitted .pay .par-2 a {
+  color: #333333;
+  margin-left: 7rem;
+}
+.main .main1 .content .bitted .pay .par-3 {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 4rem;
+  border-bottom: 0.1rem solid #eeeded;
+  padding-left: 1rem;
+}
+.main .main1 .content .bitted .pay .par-3 a {
+  color: red;
+}
+.main .main1 .content .bitted .pay .eight-2 {
+  line-height: 5.5rem;
+  font-size: 1.1rem;
+  color: #999999;
 }

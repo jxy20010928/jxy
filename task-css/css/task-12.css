@@ -147,6 +147,9 @@
   top: -29px;
   margin-left: 189px;
 }
+.footer {
+  margin-top: 20rem;
+}
 .footer input {
   border-radius: 15px 15px 15px 15px;
   border: 2px solid #5FC0CD;
