@@ -5,14 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/task-css/task-12-2.html" line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="13">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WEB-NEW/.idea/workspace.xml" />
+    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-12.css" afterPath="$PROJECT_DIR$/task-css/css/task-12.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-12.less" afterPath="$PROJECT_DIR$/task-css/css/task-12.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-3.css" afterPath="$PROJECT_DIR$/task-css/css/task-14-3.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-3.less" afterPath="$PROJECT_DIR$/task-css/css/task-14-3.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-14-3.html" afterPath="$PROJECT_DIR$/task-css/task-14-3.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -264,7 +258,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1094" />
@@ -521,7 +515,7 @@
       <workItem from="1523277431457" duration="1841000" />
       <workItem from="1523322006515" duration="1379000" />
       <workItem from="1523357701686" duration="4423000" />
-      <workItem from="1523409801250" duration="2578000" />
+      <workItem from="1523409801250" duration="2621000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -831,14 +825,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522483255772</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="13">
+      <created>1523414293006</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1523414293007</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="957030000" />
+    <option name="totallyTimeSpent" value="957073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101685986" sideWeight="0.4957537" order="0" side_tool="false" content_ui="combo" />
