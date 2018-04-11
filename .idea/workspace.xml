@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/task-css/task-12-2.html" line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -519,7 +517,7 @@
       <workItem from="1523277431457" duration="1841000" />
       <workItem from="1523322006515" duration="1379000" />
       <workItem from="1523357701686" duration="4423000" />
-      <workItem from="1523409801250" duration="13242000" />
+      <workItem from="1523409801250" duration="13404000" />
     </task>
     <task id="LOCAL-00001" summary="dfgdf">
       <created>1514169418496</created>
@@ -861,7 +859,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="967694000" />
+    <option name="totallyTimeSpent" value="967856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
