@@ -134,9 +134,11 @@ body {
   margin: auto;
 }
 .main .main1 .content {
-  width: 36.7rem;
+  width: 36.6rem;
   height: 44.5rem;
-  border: 1px solid;
+  border: 1px solid #eeeded;
+  display: inline-block;
+  border-radius: 5px;
 }
 .main .main1 .content .veil {
   width: 36.5rem;
@@ -149,6 +151,7 @@ body {
   font-size: 1.4rem;
   transition: all 2s;
   transform-origin: 50% 0;
+  border-radius: 5px;
 }
 .main .main1 .content .veil .veil-1 {
   text-align: center;
@@ -198,7 +201,7 @@ body {
   border-right: 0.1rem solid #eeeded;
 }
 .main .main1 .content .bitted .pay {
-  height: 10.6rem;
+  height: 8rem;
   border-top: 0.1rem solid #eeeded;
   border-bottom: 0.1rem solid #eeeded;
   margin-top: 0.1rem;
@@ -216,34 +219,49 @@ body {
 }
 .main .main1 .content .bitted .pay .par-2 {
   padding-left: 15.4rem;
+  padding-top: 7.8rem;
 }
 .main .main1 .content .bitted .pay .par-2 span {
   height: 3.5rem;
   border: 0.1rem solid #eeeded;
-  width: 186px;
+  width: 100%;
   margin-left: -1px;
 }
 .main .main1 .content .bitted .pay .par-2 p {
-  line-height: 0.5rem;
+  line-height: 3.5rem;
   margin-left: 1rem;
   font-size: 1.2rem;
 }
 .main .main1 .content .bitted .pay .par-2 a {
   color: #333333;
-  margin-left: 7rem;
+  padding-left: 10rem;
 }
-.main .main1 .content .bitted .pay .par-3 {
+.main .main1 .content .bitted .par-3 {
   font-size: 1.4rem;
-  text-align: left;
-  line-height: 4rem;
-  border-bottom: 0.1rem solid #eeeded;
-  padding-left: 1rem;
+  border: 0.1rem solid #eeeded;
+  padding-left: 2rem;
+  padding-top: 0.4rem;
+  margin-top: 10.3rem;
+  width: 100%;
+  height: 4rem;
 }
-.main .main1 .content .bitted .pay .par-3 a {
+.main .main1 .content .bitted .par-3 a {
   color: red;
 }
-.main .main1 .content .bitted .pay .eight-2 {
+.main .main1 .content .bitted .eight-2 {
   line-height: 5.5rem;
   font-size: 1.1rem;
   color: #999999;
+}
+.main .main1 .content .bitted .eight-2 p {
+  padding-left: 1rem;
+  line-height: 0rem;
+  margin-left: 0rem;
+  font-size: 1.2rem;
+  color: #999999;
+  padding-top: 1.7rem;
+}
+.main .main1 .content:hover .veil {
+  transform: rotatey(720deg);
+  opacity: 0.8;
 }
