@@ -139,6 +139,7 @@ body {
   border: 1px solid #eeeded;
   display: inline-block;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 .main .main1 .content .veil {
   width: 36.5rem;
@@ -264,4 +265,106 @@ body {
 .main .main1 .content:hover .veil {
   transform: rotatey(720deg);
   opacity: 0.8;
+}
+.main .tab {
+  width: 100%;
+  height: 8rem;
+  line-height: 8rem;
+  margin: auto;
+  border-bottom: 1px solid #d0d6d9;
+  margin-bottom: 4rem;
+}
+.main .tab b {
+  font-size: 2rem;
+}
+.such {
+  background: #29B078;
+  padding: 0;
+  margin-top: 18rem;
+}
+.such .ending-1 {
+  width: 70%;
+  margin: auto;
+  height: 10vw;
+  padding-top: 3rem;
+}
+.such .ending-1 .left-ending {
+  font-size: 1.4rem;
+}
+.such .ending-1 .left-ending p {
+  color: #ffffff;
+  margin-bottom: 8rem;
+}
+.such .ending-1 .left-ending a {
+  color: #fff;
+}
+.such .ending-1 .centre-ending {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: -11rem;
+  padding-left: 36rem;
+}
+.such .ending-1 .centre-ending p {
+  margin-bottom: 3rem;
+}
+.such .ending-1 .right-ending {
+  text-align: right;
+  margin-top: -15rem;
+}
+.such .ending-1 .right-ending p {
+  color: #fff;
+  padding-right: 12px;
+}
+.such .last {
+  text-align: center;
+  color: #fff;
+  border-top: 0.1rem solid;
+  font-size: 1.4rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+@media (max-width: 768px) {
+  .head .nav li {
+    margin-left: 0rem;
+  }
+  .subnav .tow1 a {
+    margin-left: 0rem;
+  }
+  .main .main1 .content {
+    width: 100%;
+  }
+  .main .main1 .content .veil {
+    width: 70%;
+  }
+  .such {
+    margin-top: 12rem;
+  }
+  .such .ending-1 {
+    width: 100% !important;
+    height: 26rem !important;
+    display: inline-block;
+  }
+  .such .ending-1 .left-ending p {
+    margin-bottom: 8rem !important;
+  }
+  .such .ending-1 .left-ending a {
+    position: relative;
+    top: -8rem;
+  }
+  .such .ending-1 .centre-ending {
+    margin-left: -36rem;
+    margin-top: -8rem;
+  }
+  .such .ending-1 .centre-ending p {
+    margin-bottom: 0rem !important;
+  }
+  .such .ending-1 .right-ending {
+    float: left;
+    padding-top: 15rem;
+  }
+  .such .ending-1 .right-ending p {
+    margin-top: 0px;
+    position: relative;
+    left: -9px;
+  }
 }
