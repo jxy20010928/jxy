@@ -24,7 +24,7 @@
 }
 .nav {
   padding: 0;
-  height: 10rem;
+  width: 100%;
   background: #29b078;
 }
 .nav span {
@@ -32,189 +32,141 @@
   width: 8rem;
   text-align: center;
   height: 9.9rem;
-  margin-top: 1px  ;
+  margin-top: 1px ;
 }
 .nav span:hover {
   display: block;
   border-bottom: 0.3rem solid #ffffff;
 }
-.nav ul {
-  float: right;
-}
 .nav li {
-  float: left;
+  float: right;
   list-style: none;
   font-size: 1.6rem;
   color: #ffffff;
-  line-height: 10rem;
+  line-height: 9rem;
   margin-left: 3.5rem;
 }
 .nav-1 {
-  width: 73%;
-  margin: auto;
   height: 10rem;
+  width: 70%;
+  margin: auto;
 }
 .one {
-  margin-top: 10rem;
-  position: absolute;
-  top: 35px;
+  padding-top: 10.9rem;
 }
-.box {
-  width: 68%;
+.weap {
+  width: 80%;
   margin: auto;
 }
-.box .weap {
-  width: 100%;
-  margin-top: 70rem;
-}
-.box .piece {
+.piece {
   margin-bottom: 8rem;
 }
-.box .pieced {
-  width: 25%;
+.pieced {
+  width: 20%;
   padding-bottom: 8rem;
-  float: left;
-  height: 29rem;
+  display: inline-block;
+  padding-top: 8rem;
 }
-.box .pieced p {
+.pieced p {
   font-size: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
   margin-right: 7rem;
 }
-.box .pieced a {
+.pieced a {
   position: relative;
   left: -3rem;
   font-size: 1.6rem;
   color: #999999;
 }
-.box .pieced img {
+.pieced img {
   height: 6.2rem;
   margin-right: 7rem;
 }
-.box .pieced1 {
-  width: 25%;
-  padding-bottom: 8rem;
-  float: left;
-  height: 29rem;
+.pieced .pie {
+  width: 100%;
 }
-.box .pieced1 p {
-  font-size: 1.4rem;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-  margin-right: 7rem;
-}
-.box .pieced1 a {
-  position: relative;
-  left: -3rem;
-  font-size: 1.6rem;
-  color: #999999;
-}
-.box .pieced1 img {
-  height: 6.2rem;
-  margin-right: 7rem;
-}
-.box .pieced2 {
-  width: 25%;
-  padding-bottom: 8rem;
-  float: left;
-  height: 29rem;
-}
-.box .pieced2 p {
-  font-size: 1.4rem;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-  margin-right: 7rem;
-}
-.box .pieced2 a {
-  position: relative;
-  left: -3rem;
-  font-size: 1.6rem;
-  color: #999999;
-}
-.box .pieced2 img {
-  height: 6.2rem;
-  margin-right: 7rem;
-}
-.box .pieced-1 {
+.pieced-1 {
   width: 25%;
   border-left: 0.1rem dashed #AAAAAA;
   font-size: 1.8rem;
-  float: left;
   height: 19rem;
+  display: inline-block;
 }
-.box .pieced-1 p {
+.pieced-1 p {
   color: #999999;
   margin-top: 1.5rem;
 }
-.box .pieced-1 b {
+.pieced-1 b {
   margin-left: -11.5rem;
   color: #26a26f;
 }
-.box .pieced-1 img {
+.pieced-1 img {
   margin-right: 1rem;
   padding-top: 3rem;
 }
-.box .method {
+.method {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
-.box .method p {
+.method p {
   text-align: center;
-  font-size: 1.4rem;
-  margin-right: 2rem;
+  font-size: 0.8vw;
+  padding-right: 1vw;
 }
-.box .method p img {
+.method p img {
   margin-right: 1rem;
   position: absolute;
   left: 27rem;
   top: 1.2rem;
 }
-.box .method .met {
+.method .met {
   font-size: 1.8rem;
-  margin-bottom: 15rem;
-  position: relative;
-  right: 40rem;
-  top: 8rem;
+  margin-bottom: 6rem;
 }
-.box .method .method-1 {
-  height: 9rem;
-  position: relative;
-  width: 26rem;
+.method .method-1 {
+  width: 24%;
   display: inline-block;
-}
-.box .method .method-1 img {
-  margin-top: -8rem;
-  margin-left: 23rem;
-}
-.box .method .top-method {
   position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.box .method .round {
+.method .method-1 img {
+  margin-top: -4.5vw;
+  margin-left: 12vw;
+}
+.method .top-method {
+  width: 100%;
+}
+.method .round {
   float: left;
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
   background: #ffffff;
-  line-height: 6.5rem;
+  line-height: 4.5rem;
   text-align: center;
-  margin-top: -1rem;
-  font-size: 1.8rem;
   color: #29b078;
   border: 1px solid #999;
 }
-.box .method .word {
-  width: 26rem;
+.method .word {
+  width: 10vw;
+  margin-left: 3vw;
+  padding-left: 1rem;
   font-size: 1.4rem;
+  padding-top: 0.5rem;
   color: #999999;
 }
-.box .student {
+.student {
   width: 100%;
 }
-.box .student p {
+.student p {
   text-align: center;
   font-size: 1.8rem;
 }
-.box .blue-1 {
+.blue-1 {
   margin-left: 3rem;
   margin-top: 2rem;
   width: 22%;
@@ -228,20 +180,20 @@
   box-shadow: 1px 1px 3px #888888;
   border-radius: 0.2rem;
 }
-.box .blue-1 p {
+.blue-1 p {
   margin-top: 2rem;
 }
-.box .blue-1 a {
+.blue-1 a {
   color: #AAAAAA;
 }
-.box .blue-1 img {
+.blue-1 img {
   border-radius: 50%;
 }
-.box .recent {
+.recent {
   height: 4rem;
   margin-bottom: 3rem;
 }
-.box .recent span {
+.recent span {
   display: block;
   width: 1rem;
   height: 1rem;
@@ -251,34 +203,34 @@
   margin-right: 1rem;
   margin-top: 2rem;
 }
-.box .recent span:hover {
+.recent span:hover {
   background: #29b078;
 }
-.box .recent p {
+.recent p {
   display: block;
   width: 8rem;
   margin: auto;
 }
-.box .company {
+.company {
   margin-bottom: 5rem;
 }
-.box .company p {
+.company p {
   text-align: center;
   font-size: 1.8rem;
   position: relative;
   right: 29.6rem;
   top: 8rem;
 }
-.box .company span {
+.company span {
   float: left;
   background: #ffffff;
   height: 17.5rem;
   box-shadow: 1px 1px 3px #888888;
 }
-.box .company span:hover {
+.company span:hover {
   transform: scale(1.1, 1.1);
 }
-.box .company .logo {
+.company .logo {
   width: 20%;
   height: 20rem;
   line-height: 18rem;
@@ -286,41 +238,41 @@
   margin-bottom: 5rem;
   text-align: -webkit-center;
 }
-.box .friendly {
+.friendly {
   padding: 0;
   background: #ffffff;
   padding-left: 3vw;
 }
-.box .friendly .end {
+.friendly .end {
   text-align: center;
   font-size: 1.8rem;
   margin-top: 1.5rem;
 }
-.box .friendly .fa {
+.friendly .fa {
   width: 102%;
   margin: auto;
   height: 10rem;
 }
-.box .friendly .fa ul {
+.friendly .fa ul {
   margin-top: 2rem;
 }
-.box .friendly .fa li {
+.friendly .fa li {
   font-size: 1.4rem;
   color: #999999;
   width: 6rem;
   line-height: 3rem;
 }
-.box .friendly .fa li:hover {
+.friendly .fa li:hover {
   border-bottom: 0.2rem solid #26a26f;
 }
-.box .friendly .fa span {
+.friendly .fa span {
   float: left;
   display: block;
   width: 6rem;
   height: 3rem;
   margin-right: 5.6rem;
 }
-.box .friendly .fa .kind {
+.friendly .fa .kind {
   margin-right: 0;
 }
 .such {
@@ -393,36 +345,6 @@
     padding-top: 2rem;
   }
   .weap .pieced .pie a {
-    padding-left: 8rem;
-  }
-  .weap .pieced1 {
-    width: 100% !important;
-    margin-top: -10rem;
-  }
-  .weap .pieced1 img {
-    margin: auto;
-  }
-  .weap .pieced1 p {
-    margin: auto;
-    font-size: 1.5rem;
-    padding-top: 2rem;
-  }
-  .weap .pieced1 .pie1 a {
-    padding-left: 8rem;
-  }
-  .weap .pieced2 {
-    width: 100% !important;
-    margin-top: -6rem;
-  }
-  .weap .pieced2 img {
-    margin: auto;
-  }
-  .weap .pieced2 p {
-    margin: auto;
-    font-size: 1.5rem;
-    padding-top: 2rem;
-  }
-  .weap .pieced2 .pie2 a {
     padding-left: 8rem;
   }
   .weap .pieced-1 {
