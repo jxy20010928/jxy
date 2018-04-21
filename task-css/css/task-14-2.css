@@ -10,31 +10,31 @@ body {
   height: 35px;
   background: #ffffff;
 }
-.header .hotline .hotline1 {
+.header .hotline .two img {
+  width: 100%;
+  margin-top: -2rem;
+}
+.header .hotline .two .hotline1 {
   width: 70%;
   height: 35px;
   background: #ffffff;
   margin: auto;
 }
-.header .hotline .hotline1 a {
+.header .hotline .two .hotline1 a {
   color: #29B078;
   display: inline-block;
   padding-top: 5px;
 }
-.header .hotline .hotline1 img {
+.header .hotline .two .hotline1 img {
   float: right;
   padding-top: 5px;
 }
-.head .two img {
-  width: 100%;
-  margin-top: -1rem;
-}
-.head .nav {
+.header .nav {
   padding: 0;
   height: 10rem;
   background: #29b078;
 }
-.head .nav span {
+.header .nav span {
   display: inline-block;
   width: 8rem;
   text-align: center;
@@ -42,15 +42,15 @@ body {
   margin-top: 1px  ;
   padding-right: 6px;
 }
-.head .nav span:hover {
+.header .nav span:hover {
   display: block;
   border-bottom: 0.3rem solid #ffffff;
 }
-.head .nav ul {
+.header .nav ul {
   float: right;
   margin-top: -9rem;
 }
-.head .nav li {
+.header .nav li {
   float: left;
   list-style: none;
   font-size: 1.6rem;
@@ -58,23 +58,23 @@ body {
   line-height: 10rem;
   margin-left: 3.5rem;
 }
-.head .nav .nav-1 {
+.header .nav .nav-1 {
   width: 73%;
   margin: auto;
   height: 10rem;
 }
-.head .nav .nav-1 b {
+.header .nav .nav-1 b {
   color: #ffffff;
   font-size: 40px;
   display: inline-block;
   padding-top: 13px;
   padding-left: 28px;
 }
-.head .nav .nav-1 p {
+.header .nav .nav-1 p {
   color: #ffffff;
   padding-left: 37px;
 }
-.head .nav .nav-1 a {
+.header .nav .nav-1 a {
   color: #ffffff;
 }
 .main-left {

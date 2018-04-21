@@ -6,7 +6,7 @@ body {
   background: #fafafa !important;
 }
 .one {
-  padding-top: 10.9rem;
+  padding-top: 10rem;
 }
 .weap {
   width: 80%;
@@ -229,14 +229,6 @@ body {
   margin-right: 0;
 }
 @media (max-width: 768px) {
-  .nav li {
-    margin-left: 1rem !important;
-    position: relative;
-    right: 5rem;
-  }
-  .nav img {
-    padding-left: 0vw;
-  }
   .weap {
     margin-top: 8rem;
   }
@@ -315,33 +307,5 @@ body {
     height: 4rem;
     width: 3rem;
     margin-right: 4.6rem;
-  }
-  .such .ending-1 {
-    width: 100% !important;
-    height: 26rem !important;
-    display: inline-block;
-  }
-  .such .ending-1 .left-ending p {
-    margin-bottom: 8rem !important;
-  }
-  .such .ending-1 .left-ending a {
-    position: relative;
-    top: -8rem;
-  }
-  .such .ending-1 .centre-ending {
-    margin-left: -36rem;
-    margin-top: -8rem !important;
-  }
-  .such .ending-1 .centre-ending p {
-    margin-bottom: 0rem !important;
-  }
-  .such .ending-1 .right-ending {
-    float: left;
-    padding-top: 15rem;
-  }
-  .such .ending-1 .right-ending p {
-    margin-top: 0px;
-    position: relative;
-    left: -9px;
   }
 }

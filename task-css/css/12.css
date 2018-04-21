@@ -1,0 +1,152 @@
+/* reset */
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form {margin:0}
+body,button,input,select,textarea {font:12px/1.5 tahoma,"\5FAE\8F6F\96C5\9ED1",sans-serif}
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+em,b {font-style:normal}
+a {text-decoration:none}
+a:hover {text-decoration:underline}
+img {border:0;vertical-align:bottom;}
+button,input,select,textarea {font-size:100%;outline:none}
+table {border-collapse:collapse;border-spacing:0}
+ul,ol {list-style:none;}
+td,th,ul,ol {padding:0}
+body {padding-top:149px;background: #151108;}
+a {color:#fff;text-decoration:none;outline:none;hide-focus:expression(this.hideFocus=true);background-color:transparent;-webkit-tap-highlight-color:transparent;cursor:pointer;}
+a:hover {color:#fff;text-decoration:none;}
+.c:before,.c:after {content:'';display:table}
+.c:after {clear:both}
+.c {zoom:1}
+.hide {display:block;width:0;height:0;overflow:hidden;}
+
+/* footer */
+#footer_ieg {position: relative;background: #000;color: #666f74;font-size: 12px;line-height: 20px;text-align: center;}
+.wrap_ieg {margin: 0 auto;padding: 30px 0;width: 1000px;}
+.wrap_ieg a {color: #666f74;}
+#footer_ieg p.e {font-size: 10px;}
+
+/* content */
+img {display: block;}
+i,b,s,em {font-style: inherit;font-weight: inherit;text-decoration: inherit;}
+body,.wrap,.ost_box,.ost_b_wrap,.blacktop-wrap,#actTitleWrap,#footer_ied {padding-left:0;padding-right:0;width:100%;min-width:1200px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1202?'1200px':'');}
+
+.buy a,.box a,.luck_num a,.btn_sel,.btn_close,.pop_title i,.btn_ok {background-image: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/sp.png);background-repeat: no-repeat;}
+.container {position: relative;margin: 0 auto;width: 1000px;}
+
+.wrap {background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/bg.jpg) no-repeat 50% 0;}
+.head {position: relative;height: 576px;background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/hd.jpg) no-repeat;}
+.content {height: 1549px;background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/ct.jpg) no-repeat;}
+
+.logo {position: absolute;left: -184px;top: 30px;width: 210px;height: 60px;display: block;}
+.logo2 {position: absolute;left: 48px;top: 30px;width: 178px;height: 60px;display: block;}
+.time {position: absolute;left: 0;top: 440px;width: 100%;color: #f6d799;font-size: 24px;line-height: 1;text-align: center;}
+.time em {font-size: 20px;}
+.login {position: absolute;left: 0;top: 510px;width: 100%;color: #cbcbcb;font-size: 18px;line-height: 1.2;text-align: center;}
+.login a {color: #ef7e52;}
+.buy {height: 316px;font-size: 0;text-align: center;}
+.buy a {margin: 0 26px;width: 292px;height: 92px;display: inline-block;vertical-align: top;transition: 0.3s;-webkit-transition: 0.3s;}
+.buy a:hover {transform: translateY(-5px);-webkit-transform: translateY(-5px);}
+.buy .btn_buy100 {background-position: 0 -103px;}
+.tip {height: 47px;color: #e1cea2;font-size: 18px;line-height: 1;text-align: center;}
+.tip em {color: #c76841;}
+
+.luck {position: relative;height: 643px;}
+.ul_luck {position: absolute;left: 0;top: 0;margin-left: -6px;width: 100%;}
+.ul_luck li {position: relative;float: left;margin-left: 6px;margin-bottom: 6px;padding: 12px 0 0 12px;width: 232px;height: 130px;background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/box.png) no-repeat;}
+.ul_luck li.nobg {background: none;}
+.ul_luck p {position: absolute;left: 0;bottom: 15px;width: 100%;color: #f8db9b;font-size: 12px;line-height: 1;text-align: center;}
+.ul_luck i {position: absolute;right: 12px;bottom: 18px;width: 83px;height: 66px;background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/select2.png) no-repeat;display: none;}
+.ul_luck li.on i {display: block;}
+
+.luck_num {position: absolute;left: 0;top: 0;width: 100%;text-align: center;}
+.luck_num p {padding-top: 183px;height: 120px;color: #cac0a8;font-size: 20px;line-height: 1;}
+.luck_num span {height: 40px;display: block;}
+.luck_num b {color: #e8c979;font-weight: bold;}
+.luck_num a {margin: 0 auto;width: 368px;height: 110px;background-position: 0 -206px;display: block;}
+#lotterycontent {position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+.btn_sel,.btn_sel:hover {position: absolute;width: 102px;height: 25px;background-position: -266px -333px;color: #270e02;font-size: 14px;line-height: 25px;text-align: center;display: block;}
+.sel1 {left: 573px;top: 531px;}
+.sel2 {left: 829px;top: 531px;}
+
+.section {height: 259px;}
+.box {float: left;width: 460px;}
+.box p {margin-left: 35px;padding-top: 68px;height: 78px;color: #ffe9a2;font-size: 16px;line-height: 1;}
+.box em {margin-right: 1em;}
+.box a {margin-left: 214px;width: 186px;height: 54px;background-position: 0 -327px;display: block;}
+.list {float: right;margin-right: 10px;padding-top: 58px;width: 420px;overflow: hidden;}
+.list ul {height: 125px;}
+.list li {color: #ede9db;font-size: 16px;line-height: 1.6;text-align: center;}
+
+.rule {padding-top: 60px;}
+.ul_rule {color: #fff8e2;font-size: 16px;line-height: 1.8;}
+.ul_rule li {position: relative;}
+.ul_rule em {margin-right: 5px;width: 18px;height: 18px;background: #483b1c;line-height: 18px;text-align: center;display: inline-block;vertical-align: middle;}
+
+.pop {position: relative;width: 780px;height: 623px;background: #28221b;border: 2px solid #786d43;display: none;outline: none;}
+.pop2 {height: 473px;}
+.btn_close {position: absolute;right: -45px;top: 0;width: 36px;height: 36px;background-position: -214px -333px;display: block;transition: 0.3s;-webkit-transition: 0.3s;}
+.btn_close:hover {transform: rotate(180deg);-webkit-transform: rotate(180deg);}
+.pop_title {padding-top: 25px;height: 60px;}
+.pop_title i {margin: 0 auto;width: 130px;height: 41px;background-position: 0 -395px;display: block;}
+.pop .ul_luck {position: static;margin-left: 12px;}
+.pop .ul_luck li {cursor: pointer;}
+.pop .ul_luck i {position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;width: 66px;height: 66px;background: url(//game.gtimg.cn/images/actdaoju/act/a20180410rebirth/select.png) no-repeat;display: none;}
+.pop .ul_luck li.on i {display: block;}
+.btn_ok {margin: 15px auto 0;width: 212px;height: 56px;background-position: -156px -395px;display: block;}
+
+.pr {position: relative;}
+.pa {position: absolute;}
+.djccode{position:fixed;bottom:215px;right:24px;z-index:100;width:154px;height:213px;background:#040404;z-index: 99;}
+.djccode .codeimg{width:145px;height:145px;display:block;margin:0 auto;margin-top:5px;}
+.djccode .tips{font-size:13px;color:#fff;line-height:16px;text-align:center;}
+.float-ct{width: 154px;height: 77px;background: url(//game.gtimg.cn/images/actdaoju/act/a20170802ywzq/fc2.jpg);}
+.que{color: #ffffff;font-size: 16px;line-height: 32px;margin-left: 64px;}
+.atten{display: block;width: 65px;height: 27px;background:url(//game.gtimg.cn/images/actdaoju/act/a20170802ywzq/fl_kf.png) no-repeat -23px 0;margin-left:64px;}
+.f-close{display: block;width: 21px; height:21px;background:url(//game.gtimg.cn/images/actdaoju/act/a20170802ywzq/fl_kf.png) no-repeat 0 0;right: -8px;top:-8px;}
+.float{z-index: 99;width: 154px; height:79px;background:url(//game.gtimg.cn/images/actdaoju/act/a20170802ywzq/fc2.jpg) no-repeat;position:fixed;right:24px; bottom: 100px; _position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop));list-style:none;_margin-top: 200px; }
+.fixed {position:fixed;top:0;_position:absolute;_top:expression(eval(document.documentElement.scrollTop));_bottom:auto;/*ie6 fixed*/}
+* html {background-image:url(about:blank);background-attachment:fixed;}
+i{font-style: normal;}
+.dialoglott{ width:600px; background:#fff; border-radius:5px; overflow:hidden;}
+.table2{ margin-bottom:30px;}
+.dialoglott .table2 td{ font-size:14px; border-bottom:#ccc 1px dashed; padding:8px 0; color:#000; text-align: center;}
+.dialoglott .table2 td a{ color:#000;}
+.dialoglott .table2 th{  height: 40px;font-size:18px; color:#ff5525;font-family:"¿¬Ìå"; text-align: center;}
+.dialoglott .dia-close2{ height: 50px; font-size:50px; color:#fff; position:absolute; right:10px; top:0; text-decoration: none; line-height: 50px;}
+.dialoglott .dia-close2:hover{text-decoration: none;}
+.dia-bt{ width:600px; font-size:36px; background:#ff5525; color:#fff; line-height:80px; text-align:center;}
+.tc_al{ display:block; width:90px; height:30px; line-height:30px; color:#fb4d62; font-size:12px; border:#fb4d62 2px solid; border-radius:20px;}
+.bt_zi{ width:1000px; text-align:center; font-size:14px; color:#4d5152; line-height:24px;}
+.bt_zi1{ padding-top:120px;}
+.bt_zi2{ color:#e2ebff; padding-top:125px;}
+.bt_zi3{ color:#ddf3ff; padding-top:125px;}
+.dj4{ width:90%; overflow:hidden; margin:0 auto; padding:30px 0;}
+.dj4 li{ float:left; text-align:center; padding:0 20px; width:90px; color:#000;}
+.dj4 li .dj_tu2{ width:60px; margin:0 auto; height:57px; padding-top:3px; background:#ff5525;}
+.dj4 li p{ padding-top:5px;}
+div{outline: 0;}
+a{cursor: pointer;}
+#deductp,.sel1,.sel2{display: none;}
+
+/*?????add by alina*/
+.pop3{width: 830px;border: 4px solid #a0a0a0;padding: 24px;background-color: #282828;position: relative;}
+.pop3_close{display: block;width: 44px;height: 44px;color:#323233;font-size: 50px;text-align: center;line-height: 38px;border: 3px solid #a0a0a0;background-color: #d0d0d0;top: -4px;right: -55px;}
+.pop3_close:hover{text-decoration: none;}
+.tit_pop{color: #b2b1b1;font-size: 28px;font-weight: bold;line-height: 42px;border-bottom: 2px solid #d0d0d0;}
+.pop_box{float: left;width: 534px;}
+.tab_box{width: 514px;margin-top: 24px;}
+.tab_box th{height: 30px;color:#2a2a2a;font-size: 14px;font-weight: bold;text-align: center;vertical-align: middle;border-right: 1px solid #323233;background-color: #d0d0d0;}
+.tab_box td{height: 41px;text-align: center;line-height: 41px;border-bottom: 1px solid #323233;border-right: 1px solid #323233;background-color: #909090;}
+.tab_box .tb_a1{color: #1e190f;font-size: 14px;margin: 0 5px;}
+.pop_text{color: #dcdcdc;font-size: 14px;margin-top: 30px;}
+.pop_fj{float: right;width: 296px;}
+.tab_list{width: 296px;margin-top: 20px;color: #2f2f2f;font-size: 14px;background-color: #d0d0d0;}
+.tab_list th,.tab_list td{text-align: center;}
+.tab_list th{height: 45px;vertical-align: middle;}
+.tab_list td{height: 28px;vertical-align: middle;}
+.pop-gift{width:500px;}
+.pop-gift .pop_box{width: 514px;}
+
+/*add by alina*/
+.send{display: block; height: 26px; background-color: #cb5731; text-align: center; line-height: 26px;color: #ffffff; margin: 0 auto;}
+.w106{width: 106px;}
+.w74{width: 74px;}
