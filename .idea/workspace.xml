@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/task-css/娱乐.html" afterPath="$PROJECT_DIR$/task-css/娱乐.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,18 +76,18 @@
           <file leaf-file-name="小课堂练习.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/task-css/小课堂练习.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+                <state relative-caret-position="57">
+                  <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="娱乐.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="娱乐.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task-css/娱乐.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+                <state relative-caret-position="57">
+                  <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,22 +95,22 @@
                     <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#12680#12686#0" expanded="true" />
-                    <element signature="e#12686#12692#0" expanded="true" />
-                    <element signature="e#12774#12780#0" expanded="true" />
-                    <element signature="e#12780#12786#0" expanded="true" />
+                    <element signature="e#12702#12708#0" expanded="true" />
+                    <element signature="e#12708#12714#0" expanded="true" />
+                    <element signature="e#12796#12802#0" expanded="true" />
+                    <element signature="e#12802#12808#0" expanded="true" />
                     <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#16534#16541#1" expanded="true" />
+                    <element signature="e#16556#16563#1" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="461">
-                  <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+                <state relative-caret-position="290">
+                  <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -147,8 +148,8 @@
           <file leaf-file-name="task-14-2.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task-css/css/task-14-2.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+                <state relative-caret-position="836">
+                  <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -256,8 +257,8 @@
         <option value="$PROJECT_DIR$/task-css/task-14-1.html" />
         <option value="$PROJECT_DIR$/task-css/task-14-2.html" />
         <option value="$PROJECT_DIR$/task-css/css/12.css" />
-        <option value="$PROJECT_DIR$/task-css/娱乐.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/task-css/娱乐.html" />
       </list>
     </option>
   </component>
@@ -538,14 +539,7 @@
       <workItem from="1524012905269" duration="17445000" />
       <workItem from="1524099377775" duration="24413000" />
       <workItem from="1524186021818" duration="11523000" />
-      <workItem from="1524272443583" duration="5756000" />
-    </task>
-    <task id="LOCAL-00009" summary="ht">
-      <created>1514973309878</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1514973309878</updated>
+      <workItem from="1524272443583" duration="5870000" />
     </task>
     <task id="LOCAL-00010" summary="ht">
       <created>1514976497093</created>
@@ -883,11 +877,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524292990395</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="13">
+      <created>1524293077736</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1524293077736</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1079195000" />
+    <option name="totallyTimeSpent" value="1079309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1182,14 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-css/css/task-14-2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/小课堂/PPT/1036-css-14.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1463">
@@ -1307,14 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task-css/小课堂练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task-css/美化试卷.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1336,10 +1321,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task-css/css/task-14-2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task-css/小课堂练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task-css/娱乐.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="88" column="22" lean-forward="true" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1347,21 +1356,13 @@
             <element signature="n#style#0;n#em#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#12680#12686#0" expanded="true" />
-            <element signature="e#12686#12692#0" expanded="true" />
-            <element signature="e#12774#12780#0" expanded="true" />
-            <element signature="e#12780#12786#0" expanded="true" />
+            <element signature="e#12702#12708#0" expanded="true" />
+            <element signature="e#12708#12714#0" expanded="true" />
+            <element signature="e#12796#12802#0" expanded="true" />
+            <element signature="e#12802#12808#0" expanded="true" />
             <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16534#16541#1" expanded="true" />
+            <element signature="e#16556#16563#1" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="54" column="66" lean-forward="false" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
