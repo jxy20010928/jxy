@@ -6,21 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3984b2a-5f9c-496e-831e-97ce8eea1ae7" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/css/12.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/navbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/task-css/娱乐.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/14组件库.css" afterPath="$PROJECT_DIR$/task-css/css/14组件库.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/14组件库.less" afterPath="$PROJECT_DIR$/task-css/css/14组件库.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.css" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-1.less" afterPath="$PROJECT_DIR$/task-css/css/task-14-1.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-2.css" afterPath="$PROJECT_DIR$/task-css/css/task-14-2.css" />
-      <change beforePath="$PROJECT_DIR$/task-css/css/task-14-2.less" afterPath="$PROJECT_DIR$/task-css/css/task-14-2.less" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-14-1.html" afterPath="$PROJECT_DIR$/task-css/task-14-1.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/task-14-2.html" afterPath="$PROJECT_DIR$/task-css/task-14-2.html" />
-      <change beforePath="$PROJECT_DIR$/task-css/小课堂练习.html" afterPath="$PROJECT_DIR$/task-css/小课堂练习.html" />
-      <change beforePath="$PROJECT_DIR$/小课堂/PPT/1036-css-14.html" afterPath="$PROJECT_DIR$/小课堂/PPT/1036-css-14.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,7 +110,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="195">
-                  <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+                  <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -270,8 +257,8 @@
         <option value="$PROJECT_DIR$/task-css/task-14-1.html" />
         <option value="$PROJECT_DIR$/task-css/task-14-2.html" />
         <option value="$PROJECT_DIR$/task-css/css/12.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/task-css/娱乐.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -552,14 +539,7 @@
       <workItem from="1524012905269" duration="17445000" />
       <workItem from="1524099377775" duration="24413000" />
       <workItem from="1524186021818" duration="11523000" />
-      <workItem from="1524272443583" duration="5438000" />
-    </task>
-    <task id="LOCAL-00006" summary="ht">
-      <created>1514971571911</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1514971571911</updated>
+      <workItem from="1524272443583" duration="5527000" />
     </task>
     <task id="LOCAL-00007" summary="ht">
       <created>1514973117234</created>
@@ -897,11 +877,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524058930097</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="13">
+      <created>1524292773482</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1524292773482</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1078877000" />
+    <option name="totallyTimeSpent" value="1078966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1152,6 +1139,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-627">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,6 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,6 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
           <caret line="325" column="7" lean-forward="false" selection-start-line="325" selection-start-column="7" selection-end-line="325" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,6 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1463">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1361,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="40" column="61" lean-forward="true" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding />
         </state>
       </provider>
