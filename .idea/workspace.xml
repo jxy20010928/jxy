@@ -41,8 +41,8 @@
           <file leaf-file-name="task-14-1.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/task-css/task-14-1.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+                <state relative-caret-position="494">
+                  <caret line="110" column="31" lean-forward="true" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -517,14 +517,7 @@
       <workItem from="1524272443583" duration="6290000" />
       <workItem from="1524293646420" duration="13676000" />
       <workItem from="1524445634930" duration="15970000" />
-      <workItem from="1524531739531" duration="9213000" />
-    </task>
-    <task id="LOCAL-00012" summary="ht">
-      <created>1514980516436</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1514980516436</updated>
+      <workItem from="1524531739531" duration="9240000" />
     </task>
     <task id="LOCAL-00013" summary="ht">
       <created>1514980695715</created>
@@ -862,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524561436434</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="13">
+      <created>1524566990124</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1524566990125</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1118588000" />
+    <option name="totallyTimeSpent" value="1118615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1293,8 +1293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task-css/task-14-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        <state relative-caret-position="494">
+          <caret line="110" column="31" lean-forward="true" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
           <folding />
         </state>
       </provider>
