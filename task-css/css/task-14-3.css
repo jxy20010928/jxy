@@ -5,78 +5,6 @@
 body {
   background-color: #FAFAFA;
 }
-.header .hotline {
-  width: 100%;
-  height: 35px;
-  background: #ffffff;
-}
-.header .hotline .hotline1 {
-  width: 70%;
-  height: 35px;
-  background: #ffffff;
-  margin: auto;
-}
-.header .hotline .hotline1 a {
-  color: #29B078;
-  display: inline-block;
-  padding-top: 5px;
-}
-.header .hotline .hotline1 img {
-  float: right;
-  padding-top: 5px;
-}
-.head .two img {
-  width: 100%;
-  margin-top: -1rem;
-}
-.head .nav {
-  padding: 0;
-  height: 10rem;
-  background: #29b078;
-}
-.head .nav span {
-  display: inline-block;
-  width: 8rem;
-  text-align: center;
-  height: 9.9rem;
-  margin-top: 1px  ;
-  padding-right: 6px;
-}
-.head .nav span:hover {
-  display: block;
-  border-bottom: 0.3rem solid #ffffff;
-}
-.head .nav ul {
-  float: right;
-  margin-top: -9rem;
-}
-.head .nav li {
-  float: left;
-  list-style: none;
-  font-size: 1.6rem;
-  color: #ffffff;
-  line-height: 10rem;
-  margin-left: 3.5rem;
-}
-.head .nav .nav-1 {
-  width: 73%;
-  margin: auto;
-  height: 10rem;
-}
-.head .nav .nav-1 b {
-  color: #ffffff;
-  font-size: 40px;
-  display: inline-block;
-  padding-top: 13px;
-  padding-left: 28px;
-}
-.head .nav .nav-1 p {
-  color: #ffffff;
-  padding-left: 37px;
-}
-.head .nav .nav-1 a {
-  color: #ffffff;
-}
 .subnav {
   width: 100%;
 }
@@ -134,7 +62,7 @@ body {
   margin: auto;
 }
 .main .main1 .content {
-  width: 36.6rem;
+  width: 32%;
   height: 44.5rem;
   border: 1px solid #eeeded;
   display: inline-block;
@@ -142,14 +70,14 @@ body {
   margin-top: 1rem;
 }
 .main .main1 .content .veil {
-  width: 36.5rem;
+  width: 23%;
   height: 44.3rem;
   background: #120e0b;
   opacity: 0;
   position: absolute;
-  padding: 8.5rem 4.3rem;
+  padding: 5vw 3vw;
   color: #FFFFFF;
-  font-size: 1.4rem;
+  font-size: 0.8vw;
   transition: all 2s;
   transform-origin: 50% 0;
   border-radius: 5px;
@@ -160,7 +88,10 @@ body {
 }
 .main .main1 .content .part {
   float: left;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
+}
+.main .main1 .content .part img {
+  width: 10vw;
 }
 .main .main1 .content .about {
   padding-top: 4rem;
@@ -168,13 +99,15 @@ body {
   height: 37%;
 }
 .main .main1 .content .about b {
-  font-size: 1.7rem;
+  font-size: 1.2vw;
 }
 .main .main1 .content .about p {
   padding-top: 1rem;
+  font-size: 0.8vw;
 }
 .main .main1 .content .bitted {
-  margin-top: 25px;
+  margin-top: 3rem;
+  width: 100%;
 }
 .main .main1 .content .bitted span {
   display: block;
@@ -194,9 +127,8 @@ body {
 }
 .main .main1 .content .bitted img {
   vertical-align: -0.3rem;
-  width: 1.8rem;
-  height: 1.8rem;
-  margin-left: 1.5rem;
+  height: 1vw;
+  margin-left: 1vw;
 }
 .main .main1 .content .bitted .left-part {
   border-right: 0.1rem solid #eeeded;
@@ -212,30 +144,32 @@ body {
 }
 .main .main1 .content .bitted .pay .par-1 {
   text-align: center;
-  width: 15.4rem;
+  width: 43%;
   border-right: 0.1rem solid #eeeded;
   font-size: 1.2rem;
   color: #999999;
   line-height: 10.6rem;
 }
 .main .main1 .content .bitted .pay .par-2 {
-  padding-left: 15.4rem;
+  padding-left: 43%;
   padding-top: 7.8rem;
 }
 .main .main1 .content .bitted .pay .par-2 span {
   height: 3.5rem;
   border: 0.1rem solid #eeeded;
   width: 100%;
-  margin-left: -1px;
 }
 .main .main1 .content .bitted .pay .par-2 p {
   line-height: 3.5rem;
-  margin-left: 1rem;
+  margin-left: 1vw;
   font-size: 1.2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .main .main1 .content .bitted .pay .par-2 a {
   color: #333333;
-  padding-left: 10rem;
+  padding-left: 8rem;
 }
 .main .main1 .content .bitted .par-3 {
   font-size: 1.4rem;
@@ -256,11 +190,13 @@ body {
 }
 .main .main1 .content .bitted .eight-2 p {
   padding-left: 1rem;
-  line-height: 0rem;
-  margin-left: 0rem;
-  font-size: 1.2rem;
+  line-height: 1rem;
+  font-size: 0.6vw;
   color: #999999;
-  padding-top: 1.7rem;
+  padding-top: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .main .main1 .content:hover .veil {
   transform: rotatey(720deg);
@@ -324,8 +260,14 @@ body {
   line-height: 3rem;
 }
 @media (max-width: 768px) {
-  .head .nav li {
-    margin-left: 0rem;
+  .part img {
+    width: 100% !important;
+  }
+  .par-2 a {
+    padding-left: 16rem !important;
+  }
+  .eight-2 p {
+    padding-left: 6rem !important;
   }
   .subnav .tow1 a {
     margin-left: 0rem;
@@ -335,36 +277,5 @@ body {
   }
   .main .main1 .content .veil {
     width: 70%;
-  }
-  .such {
-    margin-top: 12rem;
-  }
-  .such .ending-1 {
-    width: 100% !important;
-    height: 26rem !important;
-    display: inline-block;
-  }
-  .such .ending-1 .left-ending p {
-    margin-bottom: 8rem !important;
-  }
-  .such .ending-1 .left-ending a {
-    position: relative;
-    top: -8rem;
-  }
-  .such .ending-1 .centre-ending {
-    margin-left: -36rem;
-    margin-top: -8rem;
-  }
-  .such .ending-1 .centre-ending p {
-    margin-bottom: 0rem !important;
-  }
-  .such .ending-1 .right-ending {
-    float: left;
-    padding-top: 15rem;
-  }
-  .such .ending-1 .right-ending p {
-    margin-top: 0px;
-    position: relative;
-    left: -9px;
   }
 }

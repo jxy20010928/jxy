@@ -139,6 +139,23 @@
 .navbar .nav-toggle {
   display: none;
 }
+.nav-a {
+  padding: 0;
+  float: left;
+  margin-left: 15%;
+}
+.nav-a p {
+  font-size: 3.5rem;
+  color: #FFFFFF;
+  margin-top: 2.5rem;
+  margin-bottom: -0.2rem;
+  margin-left: 9px;
+}
+.nav-a a {
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  letter-spacing: 0.25rem;
+}
 .menu-1 {
   display: block;
   width: 2.5rem;
