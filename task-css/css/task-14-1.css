@@ -25,19 +25,32 @@ body {
   font-size: 1.4rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  margin-right: 7rem;
 }
 .pieced a {
-  position: relative;
-  left: -3rem;
   font-size: 1.6rem;
   color: #999999;
 }
-.pieced img {
-  height: 6.2rem;
-  margin-right: 7rem;
-}
 .pieced .pie {
+  width: 100%;
+}
+.pieced1 {
+  width: 20%;
+  padding-bottom: 8rem;
+  display: inline-block;
+  padding-top: 8rem;
+  position: relative;
+  top: -2rem;
+}
+.pieced1 p {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.pieced1 a {
+  font-size: 1.6rem;
+  color: #999999;
+}
+.pieced1 .pie {
   width: 100%;
 }
 .pieced-1 {
@@ -115,7 +128,6 @@ body {
 }
 .student {
   width: 70%;
-  height: 46rem;
   margin: auto;
 }
 .student p {
@@ -129,7 +141,7 @@ body {
 .blue-1 {
   margin-left: 3rem;
   margin-top: 2rem;
-  height: 36.7rem;
+  padding-bottom: 40%;
   background: #ffffff;
   text-align: center;
   padding-top: 2rem;
@@ -140,12 +152,15 @@ body {
 }
 .blue-1 p {
   margin-top: 2rem;
+  font-size: 1vw;
 }
 .blue-1 a {
   color: #AAAAAA;
+  font-size: 0.3vw;
 }
 .blue-1 img {
   border-radius: 50%;
+  height: 7vw;
 }
 .recent {
   height: 4rem;
@@ -271,10 +286,6 @@ body {
   }
   .method .method-1 .word {
     width: auto;
-  }
-  .student {
-    width: 70%;
-    height: 160rem;
   }
   .student .stud {
     width: 100%;
