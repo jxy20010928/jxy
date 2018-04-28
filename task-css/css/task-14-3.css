@@ -104,6 +104,7 @@ body {
 .main .main1 .content .about p {
   padding-top: 1rem;
   font-size: 0.8vw;
+  word-break: break-all;
 }
 .main .main1 .content .bitted {
   margin-top: 3rem;
